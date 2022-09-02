@@ -1,6 +1,5 @@
 # awesome-flying-fpv
 
-First Person View (FPV) here, is the art to create and extend remote controlled (RC) unmanned aerial vehicles (UAVs) mostly with a camera to fly beyond line of sight. This small or large models can be build up from scratch, or as kit and most components can be replaced by open source clones, which have full documentation and a community that allows an ongoing development. Even before the Free Open Source movement, the DIY spirit and sharing of construction schemas was still an integral part of the RC hobby community. Allow everybody to repair and adapt components. However during the past years, the knowledge on technologies seems to be displaced by ready-to-fly solutions that come complete and closed systen like the DJI drone universe.  
 We hope to give you some orientation where to start and present you the full spectrum of open source development on the world of UAVs.
 
 This is a list of Free Software and Open Hardware dedicated for Multicopters as well as airplanes or flying wings. We list esp. established projects with a active community and also some classics that might be legacy but established projects with a lot of mods.
@@ -55,12 +54,13 @@ Vertical take-off and landing are air vehicles that transform from copter to a g
 
 ## Batteries & Power controll
 
-Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs for simple
+Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs to supply onboard units.
 
 * Calculation for Configuration
 * smoke stopper?
 * PDB?
 * BEC?
+* Solar plane?
 
 ## motor controll
 
@@ -142,10 +142,9 @@ Googles have modul bays to support different radio protocols or HDMI input. See 
 
 ## Antennas and Trackers
 
-Transceiver as well as receivers can be tweaked with custom antenna configurations and tracker can support directional antennas
+Transceiver as well as receivers can be tweaked with custom antenna configurations and tracker can support directional antennas. They use multiple receivers and diversity, or telemetry to point to your drone.
+This is more professional equipment to do beyond VLOS flights and not needed for novice pilots. There are also approaches to use 4G for video and controll link for extra extend
 
-* Can use multiple receivers and diversity, or telemetry to point to your drone
-* This is more professional equipment and not needed for novice pilots, some use 4G for the link
 * [u360gts](https://github.com/raul-ortega/u360gts/) 360° motor tracker using F2/F3 controllers that control, firmware + hardware + case 2020
 * [AntTracker](https://github.com/zs6buj/AntTracker) servo based using F1 / ESP8266 / ESP32 controllers, 2019
 * [open360tracker v2](https://www.thingiverse.com/thing:2568906) simplified design, all components in moving head
@@ -210,11 +209,17 @@ Dedicated drones and toolchains to help on a dedicated topic
 
 ### Simulators
 
-Before you damage any hardware you can learn to avoid common pitfalls and train by virtual flights. This allows also to test / benchmark autopilots to work in controlled environments.
+Before you damage any hardware you can learn to avoid common pitfalls and train by virtual flights using your handhelt TX. Other allow to test / benchmark autopilots to work in controlled environments.
 
-* https://www.swalladge.net/archives/2019/11/15/fpv-drone-simulators-linux/
-* http://gettingstartedwithdrones.com/simulators/
-* ROS based
+The most consumer friendly trainer simlulators are commercial, but available for Linux, MacOS as well ([Freerider Recarged](https://fpv-freerider.itch.io/fpv-freerider-recharged), [Liftoff](https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/), [DRL Sim](https://thedroneracingleague.com/drlsim/), [Velocidrone](https://www.velocidrone.com/)
+
+* [crrcsim](https://sourceforge.net/projects/crrcsim/) for rc airplanes, 2018
+* FlightGear - usually for big airplanes, but can be paired with FC good description [from PaparazziUAV](https://wiki.paparazziuav.org/wiki/FlightGear) or [by Arduplane](https://ardupilot.org/dev/docs/simulation-2.html) for simulation
+* [AirSim](https://github.com/microsoft/AirSim) by Microsoft for algorithm testing
+* [jMAVSim](https://github.com/PX4/jMAVSim) for MAVlink
+* [JSBsim](https://github.com/JSBSim-Team/jsbsim) with bindings to Python, Matlab
+* [GAZEBOsim](https://github.com/gazebosim/gz-sim) multi robot
+* ROS supports simulations like described [by PX4](https://docs.px4.io/master/en/ros/ros2_comm.html)
 
 ### Checklists
 
