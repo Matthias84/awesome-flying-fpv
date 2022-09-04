@@ -200,10 +200,10 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 
 Dedicated drones and toolchains to help on a dedicated topic
 
-* [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) a not so FPV drone that uses custom modules and different technology for swarm controll
-* [Wifree-copter](https://open-diy-projects.com/wifree-copter/) easy 3D printed copter that uses RPI as WIFI remote controll with App
 * [SearchWing](https://www.hs-augsburg.de/searchwing/de/willkommen/) A Search and Rescue RC airplane for visual inspection of huge areas on sea to rescue people from refugee boats at the EU sea border. Waterproof to land beside the SAR mothership.
 * [Dronecoria](https://dronecoria.org) octocopter made from wood as heavy lift to drop seeds
+* [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) a not so FPV drone that uses custom modules and different technology for swarm controll
+* [Wifree-copter](https://open-diy-projects.com/wifree-copter/) easy 3D printed copter that uses RPI as WIFI remote controll with App
 
 ## Security & Safety
 
@@ -253,3 +253,11 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * actioncam mounts
 * rotor guards
 * ...
+
+## Communities
+
+Every hobby makes more fun and progress if you share your ideas and questions to others. Beside the UAV pilot communities there are plenty of modder and hackers out there.
+
+* [FPV Freedom Coalation](https://fpvfc.org/) keep drones hackabel and safe
+* [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero) 🇩🇪 events, local communities, assurance, ...
+* [Deutscher Aero Club e.V.](https://www.daec.de) 🇩🇪
