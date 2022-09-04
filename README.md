@@ -10,6 +10,16 @@ The body of a UAV depends on the kind of aircraft and is optimised for it's usec
 
 You will find also a lot of spare parts or mods / extensions to commercial vehicles, which we don't list up here!
 
+> **Note**
+> Building a UAV from scratch is a **pretty challengin task** for a beginner, esp. if you have limited amount of time.
+> So it might be wise, to try existing solutions or kits before, so you don't get stuck to early and have a handy manual. Later on, you can try different mods or start with custom builds, if you have gained more experience and know how to avoid common pitfaults.
+> See also: [My Raspberry Pi drone: the story so far by Matchstic](https://www.youtube.com/watch?v=ZCOlT_sz6Gs).
+
+> **Warning**
+> You as creator, machanic, spotter and pilot are responsible for your drone and doing. It is on you to avoid damages and not to hurt any person or animal.
+> You are also responsible to match the local regulations of your country and knowing where and how to fly with a minimum risk to others and yourself.
+> Please respect [good airmanship](https://en.wikipedia.org/wiki/Airmanship).
+
 ## Multicopters
 
 Copters are built using differnt materials from alu / carbon profiles to CNC cuts to full 3D printed cases and have different configurations for different number of rotors (bi... octo):
