@@ -123,6 +123,8 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [Wifibroadcast NG](https://github.com/svpcom/wifibroadcast) Use 2.4 / 5.8 GHz wifi hardware and RPIs to provide a video and telemetry downlink
 * [DroneBridge](https://github.com/DroneBridge/DroneBridge) Use 2.4 GHz wifi hardware and RPIs, ESP32 and Android App for bidirectional link, [Comparison](https://dronebridge.gitbook.io/docs/comparison) to the other protocolls here
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) oldest first wifi
+* [wtfos](https://github.com/fpv-wtf/wtfos) rooting and mod DJI FPV sender and receiver
+* [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) receive DJI HD signal, alpha from 2021
 * [OpenVTx](https://github.com/OpenVTx/OpenVTx) free firmware for one dedicated anlog VTX
 
 ## Camera & Gimbals
@@ -130,6 +132,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 Cameras feed the onboard videotransmitter for downlink or record as DVR with higher quality. See also VTX for custom systems which allow you different camera setups.
 
 * [Gyroflow](https://github.com/gyroflow/gyroflow) use IMU sensor data to smooth HD video recordings
+* [OpenHD on thermal cameras](https://openhd.gitbook.io/open-hd/hardware/cameras)
 * [RC Headtracker](https://github.com/dlktdr/HeadTracker) turn camera gimbal when you turn your googles. Based on Arduino and Bluetooth
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) Firmware and brushless gimbal controller
 * [Open Brushless Gimbal](https://www.thingiverse.com/thing:110731) from 2013
@@ -263,6 +266,8 @@ Radio links per se are unsave and can easily be jammed.
 
 With 3D printing it is easy to get usefull addons for your equipment and models
 
+* [Delta 5 race timer](https://github.com/scottgchin/delta5_race_timer) use 5.8GHz video signals to trigger lap counter
+* [Capture The Flag for drones](https://github.com/SeekND/CaptureTheFlag) optical system to emulate a flag for close team-fights
 * Gimbal protection
 * holder & stands
 * actioncam mounts
@@ -273,6 +278,7 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 
 Every hobby makes more fun and progress if you share your ideas and questions to others. Beside the UAV pilot communities there are plenty of modder and hackers out there.
 
+* [Dronecode foundation](https://www.dronecode.org) home for MavLink, QGroundcontrol and PX4, part of Linux foundation
 * [FPV Freedom Coalation](https://fpvfc.org/) keep drones hackabel and safe
 * [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero) 🇩🇪 events, local communities, assurance, ...
 * [Deutscher Aero Club e.V.](https://www.daec.de) 🇩🇪
