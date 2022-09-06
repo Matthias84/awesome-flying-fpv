@@ -16,9 +16,13 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 > See also: [My Raspberry Pi drone: the story so far by Matchstic](https://www.youtube.com/watch?v=ZCOlT_sz6Gs).
 
 > **Warning**
-> You as creator, machanic, spotter and pilot are responsible for your drone and doing. It is on you to avoid damages and not to hurt any person or animal.
+> You as creator, machanic, spotter and pilot **are responsible** for your drone and doing. It is on you to avoid damages and not to hurt any person or animal.
 > You are also responsible to match the local regulations of your country and knowing where and how to fly with a minimum risk to others and yourself.
 > Please respect [good airmanship](https://en.wikipedia.org/wiki/Airmanship).
+
+> **Warning**
+> In past and recent wars and **military conflicts**, parties make use of UAVs and sometimes DIY aircraft to spot and attack opponents.
+> My intention on this tecnology is opposite a peaceful research and learning on technologies and nature, not on killing people! [stopkillerrobots.org](https://www.stopkillerrobots.org)
 
 ## Multicopters
 
@@ -66,6 +70,7 @@ Vertical take-off and landing are air vehicles that transform from copter to a g
 
 Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs to supply onboard units.
 
+* 18650 Liion packs
 * Calculation for Configuration
 * smoke stopper?
 * PDB?
