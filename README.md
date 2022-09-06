@@ -271,3 +271,26 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [FPV Freedom Coalation](https://fpvfc.org/) keep drones hackabel and safe
 * [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero) 🇩🇪 events, local communities, assurance, ...
 * [Deutscher Aero Club e.V.](https://www.daec.de) 🇩🇪
+
+### Forums & Social Media
+
+* [rcroups.com](http://rcroups.com) most projects offere here support
+* [diydrones.com](http://diydrones.com) group to most projects, hardware and countries
+* [rotorbuilds.com](http://rotorbuilds.com) recipes to custom builds
+* [openrcforums.com](http://openrcforums.com) from the old days till the present working on open modells
+* [Stackexchange Drones](https://drones.stackexchange.com/) is stackoverflow Q&A for drone building
+* [reddit \\motorcopter](https://www.reddit.com/r/Multicopter/) Everything from flights, crashes, repairs, custom mods, ...
+* [OscarLiang.com](http://OscarLiang.com) - important blog with builds and configurations and knowledge
+* [fpv-community.de](http://fpv-community.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/) auch Selbstbau
+* [RC-Network.de](http://RC-Network.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/)
+
+### Video Channels
+
+* [Painless 360](https://www.youtube.com/c/Painless360) UK builds, mods and configuration basics
+* [ArxangelRC](https://www.youtube.com/c/ArxangelRC) BG builds and configurations as well as (a bit) mapping
+* [Joshua Bardwell](https://www.youtube.com/c/JoshuaBardwell) US, build and general tipps on copters 'You gonna learn something today'
+* [PawelSpechalski](https://www.youtube.com/c/Pawe%C5%82Spychalski) INAV core team, mostly copters 'Happy Flying'
+* [Andrew Netwon](https://www.youtube.com/c/AndrewNewtonAustralia) AU, mostly airplane reviews and build tipps
+* [MarioFPV](https://www.youtube.com/channel/UCX2UiZjg485tDoq_Yl4Pysw) - OpenHD, RubyFPV, WFG-NG experiments
+* [TreeOrbit ](https://www.youtube.com/user/montreetormee)- OpenHD, RubyFPV experiments
+* [flitetest.com](https://flitetest.com) - TV show, unusual DIY builds
