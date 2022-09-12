@@ -77,13 +77,14 @@ Commercial LiPo battery packs are the defaults in RC, but can be replaced with c
 * BEC?
 * Solar plane?
 
-## motor controll
+## Motor Control
 
 Usually brushless DC motors (BLDC) are used for their power and precision. They require Electronic Speed Controller (ESC) per motor.
 
 * [BLheli](https://github.com/bitdump/BLHeli) popular Firmware for ESCs with finegrained controll
+* [BlueJay](https://github.com/mathiasvr/bluejay) Digital ESC firmware for controlling brushless motors in multirotors formked from BLHeli
 
-## flight controll
+## Flight Control
 
 Modern autopilot software require STM32 based boards with F4/F7 chip generation and usually no longer support legacy boards like NAZE32, CC3D, ArduPilot, etc. Most projects are base on Cleanflight firmware and Desktop Configurator
 
@@ -144,7 +145,7 @@ Global Navigation Systems like GPS allow to determine the current position of yo
 * [GNSS SDR](https://gnss-sdr.org) Software toolchain to process radio signals of GPS, Baidu, GLONASS that are received by SDR hardware radio backends
 * [rtklib](https://www.rtklib.com) Software toolchain to inrecease precission of GNSS signals by appling realtime or postprocessing to eliminate interferances. Signals recorded by SDR or some commercial GPS modules
 
-## sensors
+## Sensors
 
 A drone uses more sensors like compass, barometer, airspeed or current to increase position estimation, or to show the system performance
 
@@ -187,7 +188,7 @@ Sensor values and controll information are shared via common serial protocols wh
 * [openXsensor](https://github.com/openXsensor/openXsensor) Convert and alter telemetry protocols
 * [OpenLog](https://github.com/sparkfun/OpenLog) with [blackbox](https://github.com/thenickdude/blackbox/) firmware for blackbox data recorder (today usually part of main FC)
 
-## Mission controll & Basestation
+## Mission Control & Basestation
 
 Ground Control Stations (GCS) on laptops / tablets allow better overview of flight parameters and position for mission control during long range / time flights. Also see [Ardupilot.org - Choosing GCS](https://ardupilot.org/copter/docs/common-choosing-a-ground-station.html).
 
@@ -255,7 +256,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [INAV Radar](https://github.com/OlivierC-FR/ESP32-INAV-Radar) LORA radio and ESP32 broadcast positions and show it at your OSD
 * [SoftRF](https://github.com/lyusupov/SoftRF) for airplane or UAV pilots, supports also FLARM
 
-## hacking & hijacking
+## Hacking & Hijacking
 
 Radio links per se are unsave and can easily be jammed.
 
@@ -273,6 +274,12 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * actioncam mounts
 * rotor guards
 * ...
+
+## Legal Information
+
+Depending on the country you live in, the laws may vary.
+
+* [Luftfahrt Bundesamt](https://www.lba.de/DE/Drohnen/Drohnen_node.html) 🇩🇪
 
 ## Communities
 
@@ -292,6 +299,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [Stackexchange Drones](https://drones.stackexchange.com/) is stackoverflow Q&A for drone building
 * [reddit \\motorcopter](https://www.reddit.com/r/Multicopter/) Everything from flights, crashes, repairs, custom mods, ...
 * [OscarLiang.com](http://OscarLiang.com) - important blog with builds and configurations and knowledge
+* [intofpv.com](http://intofpv.com) - Forum with helpful information about anything FPV related.
 * [fpv-community.de](http://fpv-community.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/) auch Selbstbau
 * [RC-Network.de](http://RC-Network.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/)
 
@@ -305,3 +313,4 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [MarioFPV](https://www.youtube.com/channel/UCX2UiZjg485tDoq_Yl4Pysw) - OpenHD, RubyFPV, WFG-NG experiments
 * [TreeOrbit ](https://www.youtube.com/user/montreetormee)- OpenHD, RubyFPV experiments
 * [flitetest.com](https://flitetest.com) - TV show, unusual DIY builds
+* [Livyu FPV](https://www.youtube.com/c/LivyuFPV/videos) - Flight footages and repair videos for DIY drone electronics
