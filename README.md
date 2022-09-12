@@ -4,7 +4,7 @@ We hope to give you some orientation where to start and present you the full spe
 
 This is a list of Free Software and Open Hardware dedicated for Multicopters as well as airplanes or flying wings. We list esp. established projects with a active community and also some classics that might be legacy but established projects with a lot of mods.
 
-## airframes
+## Airframes
 
 The body of a UAV depends on the kind of aircraft and is optimised for it's usecase. Is it high speed for racing, improved agility for acrobatic freestyle, a heavy lifter for filming , long distance observations, ... . This requirements result in different mechanics and materials and take DIY aspect into account.
 
@@ -45,7 +45,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 * [Crossfire 2](https://www.thingiverse.com/thing:234867) huge quad 3D printed, 2014
 * [Spyda 500](https://www.thingiverse.com/thing:160607) huge quad 3D printed, 2013
 
-## fixed wing / planes
+## Fixed Wing / Planes
 
 Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles, or use fully 3D printed parts, that you glue and strength with carbon roods.
 
@@ -82,7 +82,7 @@ Commercial LiPo battery packs are the defaults in RC, but can be replaced with c
 Usually brushless DC motors (BLDC) are used for their power and precision. They require Electronic Speed Controller (ESC) per motor.
 
 * [BLheli](https://github.com/bitdump/BLHeli) popular Firmware for ESCs with finegrained controll
-* [BlueJay](https://github.com/mathiasvr/bluejay) Digital ESC firmware for controlling brushless motors in multirotors formked from BLHeli
+* [BlueJay](https://github.com/mathiasvr/bluejay) Digital ESC firmware for controlling brushless motors in multirotors forked from BLHeli
 
 ## Flight Control
 
