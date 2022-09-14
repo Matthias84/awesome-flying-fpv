@@ -24,7 +24,7 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 > So it might be wise, to try existing solutions or kits before, so you don't get stuck to early and have a handy manual. Later on, you can try different mods or start with custom builds, if you have gained more experience and know how to avoid common pitfaults.
 > See also: [My Raspberry Pi drone: the story so far by Matchstic](https://www.youtube.com/watch?v=ZCOlT_sz6Gs).
 
-## Multicopters
+### Multicopters
 
 Copters are built using differnt materials from alu / carbon profiles to CNC cuts to full 3D printed cases and have different configurations for different number of rotors (bi... octo):
 
@@ -45,7 +45,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 * [Crossfire 2](https://www.thingiverse.com/thing:234867) huge quad 3D printed, 2014
 * [Spyda 500](https://www.thingiverse.com/thing:160607) huge quad 3D printed, 2013
 
-## Fixed Wing / Planes
+### Fixed Wing / Planes
 
 Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles, or use fully 3D printed parts, that you glue and strength with carbon roods.
 
@@ -58,7 +58,7 @@ Traditional RC airplanes are created using balsa wood and foil covered rips for 
 * [GASB Two](https://www.thingiverse.com/thing:1831295) fixed wing jet 3D printed with electric ducted fan (EDF) instead of classic propeller, 2016
 * [GASB One](https://www.thingiverse.com/thing:1659724) 80cm fixed wing 3D printed, developed in 6 revisions, 2016
 
-## VTOLs
+### VTOLs
 
 Vertical take-off and landing are air vehicles that transform from copter to a gliding wing, making it very easy to start/land but require a more complex mechanic and become a tip heavier than fixed wings.
 
@@ -88,7 +88,7 @@ Usually brushless DC motors (BLDC) are used for their power and precision. They 
 
 Modern autopilot software require STM32 based boards with F4/F7 chip generation and usually no longer support legacy boards like NAZE32, CC3D, ArduPilot, etc. Most projects are base on Cleanflight firmware and Desktop Configurator
 
-* [INAV](https://github.com/iNavFlight/inav) focus on GPS based flight planning / autonomous flights for wings and copters
+* [INAV](https://github.com/light/inav) focus on GPS based flight planning / autonomous flights for wings and copters
 * [betaflight](https://github.com/betaflight/betaflight) focus on racing and agility for wings and copters
 * [EmuFlight](https://github.com/emuflight/EmuFlight) focus on modern algorithms
 * [dRonin](https://github.com/d-ronin/dronin/) supporting Openpilot and other target boards
@@ -263,7 +263,7 @@ Radio links per se are unsave and can easily be jammed.
 * [5.8GHz video demodulation](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) using hack-rf SDR
 * [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) or [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf)
 
-## Tools & Accesoirs
+## Accesoirs
 
 With 3D printing it is easy to get usefull addons for your equipment and models
 
@@ -275,9 +275,13 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * rotor guards
 * ...
 
+## Workbench
+
+* https://github.com/rahulsarchive/4AxisFoamCutter
+
 ## Legal Information
 
-Depending on the country you live in, the laws may vary.
+Depending on the country you live in, the laws and legal rules of airspace may vary.
 
 * [Luftfahrt Bundesamt](https://www.lba.de/DE/Drohnen/Drohnen_node.html) 🇩🇪
 
@@ -300,8 +304,9 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [reddit \\motorcopter](https://www.reddit.com/r/Multicopter/) Everything from flights, crashes, repairs, custom mods, ...
 * [OscarLiang.com](http://OscarLiang.com) - important blog with builds and configurations and knowledge
 * [intofpv.com](http://intofpv.com) - Forum with helpful information about anything FPV related.
+* [INAV fixed wing group](https://inavfixedwinggroup.com/) - Forum, Blog, Builds on fixed wing esp. with INAV compatible autopilot
 * [fpv-community.de](http://fpv-community.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/) auch Selbstbau
-* [RC-Network.de](http://RC-Network.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/)
+* [RC-Network.de](http://RC-Network.de) [🇩🇪](https://emojipedia.org/de/flagge-deutschland/) über Selbstbau auch von Schiffen und Autos. Sehr umfangreiches [Wiki](https://wiki.rc-network.de/wiki/Hauptseite)
 
 ### Video Channels
 
@@ -314,3 +319,4 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [TreeOrbit ](https://www.youtube.com/user/montreetormee)- OpenHD, RubyFPV experiments
 * [flitetest.com](https://flitetest.com) - TV show, unusual DIY builds
 * [Livyu FPV](https://www.youtube.com/c/LivyuFPV/videos) - Flight footages and repair videos for DIY drone electronics
+* [Adam G does FPV](https://www.youtube.com/c/AdamGdoesFPV) - builds, mods and basics
