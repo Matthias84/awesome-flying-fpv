@@ -1,8 +1,17 @@
 # awesome-flying-fpv
 
+This is a list of Free Software and Open Hardware dedicated for Multicopters as well as airplanes or flying wings. We list esp. established projects with a active community and also some classics that might be legacy but established projects with a lot of mods.
+
 We hope to give you some orientation where to start and present you the full spectrum of open source development on the world of UAVs.
 
-This is a list of Free Software and Open Hardware dedicated for Multicopters as well as airplanes or flying wings. We list esp. established projects with a active community and also some classics that might be legacy but established projects with a lot of mods.
+> **Warning**
+> You as creator, machanic, spotter and pilot **are responsible** for your drone and doing. It is on you to avoid damages and not to hurt any person or animal.
+> You are also responsible to match the local regulations of your country and knowing where and how to fly with a minimum risk to others and yourself.
+> Please respect [good airmanship](https://en.wikipedia.org/wiki/Airmanship).
+
+> **Warning**
+> In past and recent wars and **military conflicts**, parties make use of UAVs and sometimes DIY aircraft to spot and attack opponents.
+> My intention on this tecnology is opposite a peaceful research and learning on technologies and nature, not on killing people! [stopkillerrobots.org](https://www.stopkillerrobots.org)
 
 ## Airframes
 
@@ -14,15 +23,6 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 > Building a UAV from scratch is a **pretty challengin task** for a beginner, esp. if you have limited amount of time.
 > So it might be wise, to try existing solutions or kits before, so you don't get stuck to early and have a handy manual. Later on, you can try different mods or start with custom builds, if you have gained more experience and know how to avoid common pitfaults.
 > See also: [My Raspberry Pi drone: the story so far by Matchstic](https://www.youtube.com/watch?v=ZCOlT_sz6Gs).
-
-> **Warning**
-> You as creator, machanic, spotter and pilot **are responsible** for your drone and doing. It is on you to avoid damages and not to hurt any person or animal.
-> You are also responsible to match the local regulations of your country and knowing where and how to fly with a minimum risk to others and yourself.
-> Please respect [good airmanship](https://en.wikipedia.org/wiki/Airmanship).
-
-> **Warning**
-> In past and recent wars and **military conflicts**, parties make use of UAVs and sometimes DIY aircraft to spot and attack opponents.
-> My intention on this tecnology is opposite a peaceful research and learning on technologies and nature, not on killing people! [stopkillerrobots.org](https://www.stopkillerrobots.org)
 
 ## Multicopters
 
