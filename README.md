@@ -275,6 +275,23 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * rotor guards
 * ...
 
+## Apps for Mobile Devices
+
+Free and useful applications to use on your mobile device.
+
+### Android
+
+* [SpeedyBee](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf) - SSpeedyBee is an Appllication for Flight controller parameters settings.
+* [BLHeli_32](https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32) - app is for configuring BLHeli_32 ESCs.
+* [FPV Video Channelsorter 5.8GHz](https://play.google.com/store/apps/details?id=florian.felix.flesch.fpvvideochannelsorter) - Sorts the channels for each pilot over the available frequencies.
+* [UAV Forecast](https://play.google.com/store/apps/details?id=com.uavforecast) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions
+* [Go FPV](https://play.google.com/store/apps/details?id=com.vertile.fpv3d) - A UVC Video Camera display and capture app, built for my DIY First Person View goggles.
+
+### iOS
+
+* [SpeedyBee](https://apps.apple.com/us/app/speedybee-app/id1150315028) - SpeedyBee is an Appllication for Flight controller parameters settings.
+* [UAV Forecast](https://apps.apple.com/us/app/uav-forecast/id1050023752) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions
+
 ## Workbench
 
 * https://github.com/rahulsarchive/4AxisFoamCutter
