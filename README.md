@@ -66,7 +66,7 @@ Vertical take-off and landing are air vehicles that transform from copter to a g
 * [bicopter kit](https://hackaday.com/2018/08/27/the-best-new-quad-is-a-bicopter/) with CNC carbon, 2018
 * <https://www.printables.com/de/model/261434-vase-mode-wing> Wing Profile 3D printing with LW-PLA
 
-## Batteries & Power controll
+## Batteries & Power Control
 
 Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs to supply onboard units.
 
@@ -81,7 +81,7 @@ Commercial LiPo battery packs are the defaults in RC, but can be replaced with c
 
 Usually brushless DC motors (BLDC) are used for their power and precision. They require Electronic Speed Controller (ESC) per motor.
 
-* [BLheli](https://github.com/bitdump/BLHeli) popular Firmware for ESCs with finegrained controll
+* [BLheli](https://github.com/bitdump/BLHeli) popular Firmware for ESCs with finegrained control
 * [BlueJay](https://github.com/mathiasvr/bluejay) Digital ESC firmware for controlling brushless motors in multirotors forked from BLHeli
 
 ## Flight Control
@@ -99,7 +99,7 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 
 ## RC Transmitters & Handcontroller
 
-Radio controll transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.  
+Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.  
 Most receivers (RX, drone side) support standard serial protocols like Crossfire (CSRF) to talk with the FC.
 
 * [OpenTX](https://github.com/opentx/opentx) firmware for popular handtransmitters including Desktop manager and sound packs
@@ -162,7 +162,7 @@ Googles have modul bays to support different radio protocols or HDMI input. See 
 ## Antennas and Trackers
 
 Transceiver as well as receivers can be tweaked with custom antenna configurations and tracker can support directional antennas. They use multiple receivers and diversity, or telemetry to point to your drone.
-This is more professional equipment to do beyond VLOS flights and not needed for novice pilots. There are also approaches to use 4G for video and controll link for extra extend
+This is more professional equipment to do beyond VLOS flights and not needed for novice pilots. There are also approaches to use 4G for video and control link for extra extend
 
 * [u360gts](https://github.com/raul-ortega/u360gts/) 360° motor tracker using F2/F3 controllers that control, firmware + hardware + case 2020
 * [AntTracker](https://github.com/zs6buj/AntTracker) servo based using F1 / ESP8266 / ESP32 controllers, 2019
@@ -174,12 +174,12 @@ This is more professional equipment to do beyond VLOS flights and not needed for
 
 ## Telemetry & Logs
 
-Sensor values and controll information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transfered to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behaviour
+Sensor values and control information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transfered to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behaviour
 
 * [MAVlink](https://github.com/mavlink/mavlink) modern extensible protocol from hobbiests ... commercial UAV
 * [UAVCAN]() industrial only drone bus system
 * [LuaTelemetry](https://github.com/teckel12/LuaTelemetry) OpenTX / EdgeTX script that renders live cockpit and map from telemetry datastream
-* [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) script to show telemetry and controll e.g. CAM, VTX settings
+* [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) script to show telemetry and control e.g. CAM, VTX settings
 * [otxtelemetry](https://github.com/olliw42/otxtelemetry) OpenTX / EdgeTX script to add Mavlink support
 * [INAV blackbox viewer](https://github.com/iNavFlight/blackbox-log-viewer) Render sensor / motor values as video overlay OSD
 * [INAV blackbox tools](https://github.com/iNavFlight/blackbox-tools) Convert to CSV timeseries files or as visual OSD overlay
@@ -201,7 +201,7 @@ Ground Control Stations (GCS) on laptops / tablets allow better overview of flig
 
 ## Companion Computers & Integration
 
-Your FC is focused on realtime controll for maneuvers, while additional computers add ressources for more complex data processing, see also [Arudpilot.org - Companion Computers](https://ardupilot.org/dev/docs/companion-computers.html) and digital VTX systems above.
+Your FC is focused on realtime control for maneuvers, while additional computers add ressources for more complex data processing, see also [Arudpilot.org - Companion Computers](https://ardupilot.org/dev/docs/companion-computers.html) and digital VTX systems above.
 
 * [ROS](https://github.com/ros/ros) robot operating system, to handle more complex and interactive flights
 * [DroneKit](https://github.com/dronekit/dronekit-python) multi platform integration ecosystem including mavlink radio link
@@ -221,8 +221,8 @@ Dedicated drones and toolchains to help on a dedicated topic
 
 * [SearchWing](https://www.hs-augsburg.de/searchwing/de/willkommen/) A Search and Rescue RC airplane for visual inspection of huge areas on sea to rescue people from refugee boats at the EU sea border. Waterproof to land beside the SAR mothership.
 * [Dronecoria](https://dronecoria.org) octocopter made from wood as heavy lift to drop seeds
-* [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) a not so FPV drone that uses custom modules and different technology for swarm controll
-* [Wifree-copter](https://open-diy-projects.com/wifree-copter/) easy 3D printed copter that uses RPI as WIFI remote controll with App
+* [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) a not so FPV drone that uses custom modules and different technology for swarm control
+* [Wifree-copter](https://open-diy-projects.com/wifree-copter/) easy 3D printed copter that uses RPI as WIFI remote control with App
 
 ## Security & Safety
 
@@ -281,7 +281,7 @@ Free and useful applications to use on your mobile device.
 
 ### Android
 
-* [SpeedyBee](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf) - SSpeedyBee is an Appllication for Flight controller parameters settings.
+* [SpeedyBee](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf) - SpeedyBee is an Appllication for Flight controller parameters settings.
 * [BLHeli_32](https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32) - app is for configuring BLHeli_32 ESCs.
 * [FPV Video Channelsorter 5.8GHz](https://play.google.com/store/apps/details?id=florian.felix.flesch.fpvvideochannelsorter) - Sorts the channels for each pilot over the available frequencies.
 * [UAV Forecast](https://play.google.com/store/apps/details?id=com.uavforecast) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions
