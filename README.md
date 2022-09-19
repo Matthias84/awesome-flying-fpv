@@ -47,7 +47,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 
 ### Fixed Wing / Planes
 
-Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles, or use fully 3D printed parts, that you glue and strength with carbon roods.
+Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles.  Also fully 3D printed planes are possible, that you glue and strength with carbon roods. Here is a growing community for commercial 3D models to print [Craycle Hobby](https://craycle.com/), [Eclipson airplanes](https://www.eclipson-airplanes.com/),[3D lab print](https://3dlabprint.com/product-category/printable-airplanes/), [Plane Print](https://www.planeprint.com/) or [OWLplane](https://owlplane.com/) using lightweight PLA to save weigth
 
 * [LukiSegler](https://www.printables.com/de/model/76098-lukisegler-electric-rc-glider) glider, 2021
 * [Eclipson Model V](https://www.thingiverse.com/thing:4011218) mostly 3D printed commercial airplane with wheels, from 2019
@@ -212,8 +212,19 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 
 * [OpenDroneMap](https://www.opendronemap.org/) stitch photos to aerial imagery, calc 3D models, ....
 * [OpenAerialMap](https://github.com/hotosm/OpenAerialMap/) share Drone shots for disaster response etc
+* [DroneDB](https://github.com/DroneDB/DroneDB) store and archive drone shots and aerial imagery
 * [OpenMMS](https://www.openmms.org/) mobile mapping system that carries a laser scanner
+* [BANet](https://github.com/lironui/BANet) ML segmentation of areas for aerial imagery
+* [AVCBet](https://github.com/lironui/ABCNet) ML segmentation of areas for aerial imagery
+* [Faster](https://github.com/mit-acl/faster) ML let drones learn to avoid obstacles
+* [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) learn drones to avoid obstacles on the course
 * [Autonomous Drone Dodges Obstacles Without GPS](https://hackaday.com/2021/11/03/autonomous-drone-dodges-obstacles-without-gps/) RPI based CV and route planning and obstacle avoidance
+* [Drone-net](https://github.com/chuanenlin/drone-net) ML detect quadcopters within photos / videos using YOLO v4
+* [Fire Detection UAV](https://github.com/AlirezaShamsoshoara/Fire-Detection-UAV-Aerial-Image-Classification-Segmentation-UnmannedAerialVehicle) ML learn drones to spot fire
+* [DroneAid](https://github.com/Call-for-Code/DroneAid) ML find persons in disaster response by emergency markers
+* [AirPose](https://github.com/robot-perception-group/AirPose) ML human pose estimation from drone perspective
+
+
 
 ## Complete Systems
 
