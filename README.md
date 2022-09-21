@@ -47,7 +47,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 
 ### Fixed Wing / Planes
 
-Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles.  Also fully 3D printed planes are possible, that you glue and strength with carbon roods. Here is a growing community for commercial 3D models to print [Craycle Hobby](https://craycle.com/), [Eclipson airplanes](https://www.eclipson-airplanes.com/),[3D lab print](https://3dlabprint.com/product-category/printable-airplanes/), [Plane Print](https://www.planeprint.com/) or [OWLplane](https://owlplane.com/) using lightweight PLA to save weigth
+Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles.  Also fully 3D printed planes are possible, that you glue and strength with carbon roods. Here is a growing community for commercial 3D models to print [Craycle Hobby](https://craycle.com/), [Eclipson airplanes](https://www.eclipson-airplanes.com/),[3D lab print](https://3dlabprint.com/product-category/printable-airplanes/), [Plane Print](https://www.planeprint.com/) , [OWLplane](https://owlplane.com/) or [rc-jetprint.de](https://rc-jetprint.de/en/) using lightweight PLA to save weigth
 
 * [LukiSegler](https://www.printables.com/de/model/76098-lukisegler-electric-rc-glider) glider, 2021
 * [Eclipson Model V](https://www.thingiverse.com/thing:4011218) mostly 3D printed commercial airplane with wheels, from 2019
@@ -203,6 +203,8 @@ Ground Control Stations (GCS) on laptops / tablets allow better overview of flig
 
 Your FC is focused on realtime control for maneuvers, while additional computers add ressources for more complex data processing, see also [Arudpilot.org - Companion Computers](https://ardupilot.org/dev/docs/companion-computers.html) and digital VTX systems above.
 
+* [APsync](https://ardupilot.org/dev/docs/apsync-intro.html) mavlink focused OS for different SBCs
+* [RPanion](https://www.docs.rpanion.com/software/rpanion-server) mavlink focused RPI image
 * [ROS](https://github.com/ros/ros) robot operating system, to handle more complex and interactive flights
 * [DroneKit](https://github.com/dronekit/dronekit-python) multi platform integration ecosystem including mavlink radio link
 
