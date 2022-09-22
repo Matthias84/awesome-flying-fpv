@@ -33,6 +33,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 * [Ultimate 3D printable Cinewhoop](https://www.thingiverse.com/thing:4502805), 2020
 * [TinyTina](https://blog.prusaprinters.org/how-to-build-a-3d-printed-micro-drone_29310/) 3D printed whoop, 2018
 * [Heavy Lift Quadcopter Frame](https://www.thingiverse.com/thing:4089842) CNC cut by carbon, 2020
+* [The CogniFly](https://thecognifly.github.io) robust frame for research, swarms and indoor with RPI companion computer, 2021
 * [TBS Source One](https://github.com/tbs-trappy/source_one) carbon racing frame in 5 revisions, 2021
 * [TBS Source Two](https://www.team-blacksheep.com/products/prod:source_two_5in) carbon racing frame, 2019
 * [TBS Source Podracer](https://github.com/ps915/source_podracer) 3D carbon racing frame, 2020
@@ -71,10 +72,17 @@ Vertical take-off and landing are air vehicles that transform from copter to a g
 Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs to supply onboard units.
 
 * 18650 Liion packs
-* Calculation for Configuration
+  * [Using Li-Ion Battery Pack for Long Range FPV Flying](https://oscarliang.com/li-ion-battery-long-range/) 4S and background infos
+  * [build a „LongRange“ Lithium Ion Battery](https://blog.seidel-philipp.de/diy-build-a-longrange-lithium-ion-battery/) 4S 3000mAh, 2020
+  * [DIY FPV Goggle Battery Pack](https://nuxnik.com/diy-fpv-goggle-battery-pack/) for googles, with charge meter and 3D case
+  * [18650 spaceholder](https://www.printables.com/de/model/1181-18650-improved-spacerholder) 3d print
+  * ?Calculation for Configuration
+  * ?BMS
 * PDB?
 * BEC?
-* Solar plane?
+* Solar plane
+  * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) plane with beplanned ribs, 2022
+  * [rctestflight series](https://www.youtube.com/watch?v=1OGrDvInUAY) 8hrs30 fixed wing full of solar cells with great measurements and background infos
 
 ## Motor Control
 
