@@ -72,7 +72,6 @@ Commercial LiPo battery packs are the defaults in RC, but can be replaced with c
 
 * 18650 Liion packs
 * Calculation for Configuration
-* smoke stopper?
 * PDB?
 * BEC?
 * Solar plane?
@@ -288,25 +287,20 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * rotor guards
 * ...
 
-## Apps for Mobile Devices
+### Mobile Apps
 
-Free and useful applications to use on your mobile device.
+Free and useful applications to use on your mobile device. Might be not nessesarry open source
 
-### Android
 
-* [SpeedyBee](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf) - SpeedyBee is an Appllication for Flight controller parameters settings.
+* [SpeedyBee}(https://www.speedybee.com/speedy-bee-app/) - is an Appllication for Flight controller parameters settings and blackbox log reader for betaflight, iNAV, emuflight  [Android](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf), [iOS](https://apps.apple.com/us/app/speedybee-app/id1150315028)
 * [BLHeli_32](https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32) - app is for configuring BLHeli_32 ESCs.
 * [FPV Video Channelsorter 5.8GHz](https://play.google.com/store/apps/details?id=florian.felix.flesch.fpvvideochannelsorter) - Sorts the channels for each pilot over the available frequencies.
-* [UAV Forecast](https://play.google.com/store/apps/details?id=com.uavforecast) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions
+* [UAV Forecast](https://www.uavforecast.com) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions [Android](https://play.google.com/store/apps/details?id=com.uavforecast), [iOS](https://apps.apple.com/us/app/uav-forecast/id1050023752)
 * [Go FPV](https://play.google.com/store/apps/details?id=com.vertile.fpv3d) - A UVC Video Camera display and capture app, built for my DIY First Person View goggles.
-
-### iOS
-
-* [SpeedyBee](https://apps.apple.com/us/app/speedybee-app/id1150315028) - SpeedyBee is an Appllication for Flight controller parameters settings.
-* [UAV Forecast](https://apps.apple.com/us/app/uav-forecast/id1050023752) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions
 
 ## Workbench
 
+* smoke stopper?
 * https://github.com/rahulsarchive/4AxisFoamCutter
 
 ## Legal Information
