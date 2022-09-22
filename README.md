@@ -109,8 +109,16 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.  
 Most receivers (RX, drone side) support standard serial protocols like Crossfire (CSRF) to talk with the FC.
 
-* [OpenTX](https://github.com/opentx/opentx) firmware for popular handtransmitters including Desktop manager and sound packs
 * [EdgeTX](https://github.com/EdgeTX/edgetx) sucessor of OpenTX under active development
+* [OpenTX](https://github.com/opentx/opentx) firmware for popular handtransmitters including Desktop manager and sound packs
+* [inav-opentx-sounds](https://github.com/JyeSmith/inav-opentx-sounds) addon sounds for modes
+* [transmitter-sound-pack](https://inavfixedwinggroup.com/guides/transmitter-models/transmitter-sound-pack/) INAV sounds and complete configs for wings
+* [VTx](https://github.com/teckel12/VTx) stripped down betaflight Lua script to controll only your VTX
+* [betaflight-tx-lua-scripts](https://github.com/Matze-Jung/betaflight-tx-lua-scripts) extended BF lua script
+* [opentx-lua-widgets](https://github.com/Matze-Jung/opentx-lua-widgets) more UI widgets to present telemetry
+* [opentx-lua-running-graphs](https://github.com/Matze-Jung/opentx-lua-running-graphs) more visual graphs as widgets
+* [OpenTX-Pong](https://github.com/SpechtD/OpenTX-Pong) simple game for your TX
+* [OpenAVRc](https://github.com/Ingwie/OpenAVRc_Hw) Custom TX based on Arduino Mega2560 boards
 
 ### Modules
 
@@ -119,6 +127,7 @@ Hardware and firmware to establish custom radio links. Nowadays usuallay a bidir
 * [Multi Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module) Supports different protocols like FrSky, FlySky, Walkera, Futaba, ...
 * [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) ELRS for long range or better latency. Support flashing some existing hardware, but also provide commercial modules for 868/915 MHz or 2.4 / 5.8 GHz.
 * [openLRSng](https://github.com/openLRSng/openLRSng)
+* [Raven LRS](https://github.com/RavenLRS/raven) Lora based, 2019
 * [OpenSky](https://fishpepper.de/projects/opensky/) alternative firmware for FrSky modules, 2016
 * [DeviationTX](https://deviationtx.com/) alternative firmware for Walkera, 2016
 
@@ -178,13 +187,16 @@ This is more professional equipment to do beyond VLOS flights and not needed for
   * [Amv-open360tracker](https://github.com/raul-ortega/amv-open360tracker) fork 2016
   * [Amv-open360tracker 36bit](https://github.com/ericyao2013/amv-open360tracker-32bits) fork 2016
 * [Ghettostation Antenna Tracker](https://www.thingiverse.com/thing:547358) different forks 2014
+* helical
+* clover leaf
 
 ## Telemetry & Logs
 
 Sensor values and control information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transfered to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behaviour
 
 * [MAVlink](https://github.com/mavlink/mavlink) modern extensible protocol from hobbiests ... commercial UAV
-* [UAVCAN]() industrial only drone bus system
+* [Cyphal](https://opencyphal.org) fka. UAVCAN industrial only drone bus system
+* [YAMSPy](https://github.com/thecognifly/YAMSPy) read MSP serial protocol with Python
 * [LuaTelemetry](https://github.com/teckel12/LuaTelemetry) OpenTX / EdgeTX script that renders live cockpit and map from telemetry datastream
 * [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) script to show telemetry and control e.g. CAM, VTX settings
 * [otxtelemetry](https://github.com/olliw42/otxtelemetry) OpenTX / EdgeTX script to add Mavlink support
@@ -192,6 +204,7 @@ Sensor values and control information are shared via common serial protocols whi
 * [INAV blackbox tools](https://github.com/iNavFlight/blackbox-tools) Convert to CSV timeseries files or as visual OSD overlay
 * [flightlog2x](https://github.com/stronnag/bbl2kml) Convert blackbox logs of INAV, OpenTX, ... to CSV, GPX, KML and render tracks and trajectory with different performance styles, seperate [GUI](https://github.com/stronnag/fl2xui)
 * [UAVLogViewer](https://github.com/ardupilot/uavlogviewer) web application for Ardupilot logs
+* [OSD-subtitles](https://github.com/kristjanbjarni/osd-subtitles) render Blackbox logs to OSD as subtitle for synconous plaback with video file
 * [openXsensor](https://github.com/openXsensor/openXsensor) Convert and alter telemetry protocols
 * [OpenLog](https://github.com/sparkfun/OpenLog) with [blackbox](https://github.com/thenickdude/blackbox/) firmware for blackbox data recorder (today usually part of main FC)
 
@@ -205,6 +218,7 @@ Ground Control Stations (GCS) on laptops / tablets allow better overview of flig
 * [MissionPlanner](https://ardupilot.org/planner/index.html)
 * [MAVProxy](https://ardupilot.org/mavproxy/) commandline and GUI mission planer and telemetry viewer and processor
 * [BulletGCSS](https://github.com/danarrib/BulletGCSS) uses GSM and MQTT for extra long range links
+* [Dreka GCS](https://github.com/Midgrad/Dreka) a new GCS (currently limited but more modern look & feel)
 
 ## Companion Computers & Integration
 
@@ -267,6 +281,7 @@ Malfunction can have dramatic consequences, as well as your drone can cause mass
 * build power check
 * maiden flight check
 * regular flight check
+  * [Ardupilot Copter Checklist](https://ardupilot.org/copter/docs/checklist.html)
 
 ### ID Systems
 
@@ -274,7 +289,9 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 
 * ADS-B transmittters of airplanes can be received using software defined radios can be realized using cheap USB DVB-T receivers. Can be integrated via radar extensions like [mwp-radar-view](https://github.com/stronnag/mwptools/wiki/mwp-Radar-View), [Ardupilot ADS-B receiver](/https://ardupilot.org/copter/docs/common-ads-b-receiver.html) or in OpenHD. Is part of mavlink protocol and shows up on most GCS.  Can also be viewed online like [adsb-exchange.com](https://globe.adsbexchange.com/)
 * [INAV Radar](https://github.com/OlivierC-FR/ESP32-INAV-Radar) LORA radio and ESP32 broadcast positions and show it at your OSD
-* [SoftRF](https://github.com/lyusupov/SoftRF) for airplane or UAV pilots, supports also FLARM
+* [SoftRF](https://github.com/lyusupov/SoftRF) UAV edition, supports also FLARM and more
+* [Glidernet](https://www.glidernet.org) share FLARM / ADS-B positions online
+* [Opensky Network](https://opensky-network.org) share ADS-B positions online
 
 ## Hacking & Hijacking
 
@@ -282,6 +299,7 @@ Radio links per se are unsave and can easily be jammed.
 
 * [5.8GHz video demodulation](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) using hack-rf SDR
 * [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) or [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf)
+* [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) CVEs for semi-autonomous machines
 
 ## Accesoirs
 
@@ -308,8 +326,8 @@ Free and useful applications to use on your mobile device. Might be not nessesar
 
 ## Workbench
 
-* smoke stopper?
-* https://github.com/rahulsarchive/4AxisFoamCutter
+* [smoke stopper](https://oscarliang.com/smoke-stopper/) avoid damaging your components during build up
+* [4AxisFoamCutter](https://github.com/rahulsarchive/4AxisFoamCutter) create aerodynamic wings from foam
 
 ## Legal Information
 
@@ -347,6 +365,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [Joshua Bardwell](https://www.youtube.com/c/JoshuaBardwell) US, build and general tipps on copters 'You gonna learn something today'
 * [PawelSpechalski](https://www.youtube.com/c/Pawe%C5%82Spychalski) INAV core team, mostly copters 'Happy Flying'
 * [Andrew Netwon](https://www.youtube.com/c/AndrewNewtonAustralia) AU, mostly airplane reviews and build tipps
+* [CurryKitten](https://www.youtube.com/c/CurryKitten/) reviews, but also OpenHD and ExpressLRS
 * [MarioFPV](https://www.youtube.com/channel/UCX2UiZjg485tDoq_Yl4Pysw) - OpenHD, RubyFPV, WFG-NG experiments
 * [TreeOrbit ](https://www.youtube.com/user/montreetormee)- OpenHD, RubyFPV experiments
 * [flitetest.com](https://flitetest.com) - TV show, unusual DIY builds
