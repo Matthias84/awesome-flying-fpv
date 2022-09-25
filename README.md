@@ -51,8 +51,8 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles.  Also fully 3D printed planes are possible, that you glue and strength with carbon roods. Here is a growing community for commercial 3D models to print [Craycle Hobby](https://craycle.com/), [Eclipson airplanes](https://www.eclipson-airplanes.com/),[3D lab print](https://3dlabprint.com/product-category/printable-airplanes/), [Plane Print](https://www.planeprint.com/) , [OWLplane](https://owlplane.com/) or [rc-jetprint.de](https://rc-jetprint.de/en/) using lightweight PLA to save weigth
 
 * [LukiSegler](https://www.printables.com/de/model/76098-lukisegler-electric-rc-glider) glider, 2021
-* [Eclipson Model V](https://www.thingiverse.com/thing:4011218) mostly 3D printed commercial airplane with wheels, from 2019
-* [Eclipson Model Y](https://www.thingiverse.com/thing:2752892) mostly 3D printed commercial airplane with wheels, from 2018
+* [Eclipson Model V](https://www.thingiverse.com/thing:4011218) mostly 3D printed commercial airplane with wheels, 2019
+* [Eclipson Model Y](https://www.thingiverse.com/thing:2752892) mostly 3D printed commercial airplane with wheels, 2018
 * [Northern Pike](https://www.thingiverse.com/thing:3040294) 36" fixed wing 3D printed, 2018
 * [RC Flying Wing](https://www.thingiverse.com/thing:2044074) , 2017
 * [GASB Three](https://www.thingiverse.com/thing:3605665) fixed wing 3D printed, 2019
@@ -141,7 +141,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [DroneBridge](https://github.com/DroneBridge/DroneBridge) Use 2.4 GHz wifi hardware and RPIs, ESP32 and Android App for bidirectional link, [Comparison](https://dronebridge.gitbook.io/docs/comparison) to the other protocolls here
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) oldest first wifi
 * [wtfos](https://github.com/fpv-wtf/wtfos) rooting and mod DJI FPV sender and receiver
-* [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) receive DJI HD signal, alpha from 2021
+* [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) receive DJI HD signal, alpha 2021
 * [OpenVTx](https://github.com/OpenVTx/OpenVTx) free firmware for one dedicated anlog VTX
 
 ## Camera & Gimbals 🎥
@@ -152,7 +152,7 @@ Cameras feed the onboard videotransmitter for downlink or record as DVR with hig
 * [OpenHD on thermal cameras](https://openhd.gitbook.io/open-hd/hardware/cameras)
 * [RC Headtracker](https://github.com/dlktdr/HeadTracker) turn camera gimbal when you turn your googles. Based on Arduino and Bluetooth
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) Firmware and brushless gimbal controller
-* [Open Brushless Gimbal](https://www.thingiverse.com/thing:110731) from 2013
+* [Open Brushless Gimbal](https://www.thingiverse.com/thing:110731) 2013
 
 ## GPS 🛰️
 
