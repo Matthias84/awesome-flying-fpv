@@ -24,7 +24,7 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 > So it might be wise, to try existing solutions or kits before, so you don't get stuck to early and have a handy manual. Later on, you can try different mods or start with custom builds, if you have gained more experience and know how to avoid common pitfaults.
 > See also: [My Raspberry Pi drone: the story so far by Matchstic](https://www.youtube.com/watch?v=ZCOlT_sz6Gs).
 
-### Multicopters
+### Multicopters 🚁
 
 Copters are built using differnt materials from alu / carbon profiles to CNC cuts to full 3D printed cases and have different configurations for different number of rotors (bi... octo):
 
@@ -46,7 +46,7 @@ Copters are built using differnt materials from alu / carbon profiles to CNC cut
 * [Crossfire 2](https://www.thingiverse.com/thing:234867) huge quad 3D printed, 2014
 * [Spyda 500](https://www.thingiverse.com/thing:160607) huge quad 3D printed, 2013
 
-### Fixed Wing / Planes
+### Fixed Wing / Planes 🛩️
 
 Traditional RC airplanes are created using balsa wood and foil covered rips for the wings. Commercial models make use of foam, that you can also cut by CNC and lasers to create wing profiles.  Also fully 3D printed planes are possible, that you glue and strength with carbon roods. Here is a growing community for commercial 3D models to print [Craycle Hobby](https://craycle.com/), [Eclipson airplanes](https://www.eclipson-airplanes.com/),[3D lab print](https://3dlabprint.com/product-category/printable-airplanes/), [Plane Print](https://www.planeprint.com/) , [OWLplane](https://owlplane.com/) or [rc-jetprint.de](https://rc-jetprint.de/en/) using lightweight PLA to save weigth
 
@@ -67,7 +67,7 @@ Vertical take-off and landing are air vehicles that transform from copter to a g
 * [bicopter kit](https://hackaday.com/2018/08/27/the-best-new-quad-is-a-bicopter/) with CNC carbon, 2018
 * <https://www.printables.com/de/model/261434-vase-mode-wing> Wing Profile 3D printing with LW-PLA
 
-## Batteries & Power Control
+## Batteries & Power Control 🔋
 
 Commercial LiPo battery packs are the defaults in RC, but can be replaced with custom 18650 based Liion packs. The onboard power bus powers the ESC and FC directly, which offer 5V outputs to supply onboard units.
 
@@ -84,14 +84,14 @@ Commercial LiPo battery packs are the defaults in RC, but can be replaced with c
   * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) plane with beplanned ribs, 2022
   * [rctestflight series](https://www.youtube.com/watch?v=1OGrDvInUAY) 8hrs30 fixed wing full of solar cells with great measurements and background infos
 
-## Motor Control
+## Motor Control ⚙️
 
 Usually brushless DC motors (BLDC) are used for their power and precision. They require Electronic Speed Controller (ESC) per motor.
 
 * [BLheli](https://github.com/bitdump/BLHeli) popular Firmware for ESCs with finegrained control
 * [BlueJay](https://github.com/mathiasvr/bluejay) Digital ESC firmware for controlling brushless motors in multirotors forked from BLHeli
 
-## Flight Control
+## Flight Control 👨‍✈️
 
 Modern autopilot software require STM32 based boards with F4/F7 chip generation and usually no longer support legacy boards like NAZE32, CC3D, ArduPilot, etc. Most projects are base on Cleanflight firmware and Desktop Configurator
 
@@ -104,7 +104,7 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 * [Paparazzi UAV](https://github.com/paparazzi/paparazzi)
 * [LibrePilot](https://github.com/librepilot/LibrePilot) stall since 2018
 
-## RC Transmitters & Handcontroller
+## RC Transmitters & Handcontroller 🎮
 
 Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.  
 Most receivers (RX, drone side) support standard serial protocols like Crossfire (CSRF) to talk with the FC.
@@ -120,7 +120,7 @@ Most receivers (RX, drone side) support standard serial protocols like Crossfire
 * [OpenTX-Pong](https://github.com/SpechtD/OpenTX-Pong) simple game for your TX
 * [OpenAVRc](https://github.com/Ingwie/OpenAVRc_Hw) Custom TX based on Arduino Mega2560 boards
 
-### Modules
+### Modules 🧩
 
 Hardware and firmware to establish custom radio links. Nowadays usuallay a bidirectional link, so pure TX / RX side
 
@@ -131,7 +131,7 @@ Hardware and firmware to establish custom radio links. Nowadays usuallay a bidir
 * [OpenSky](https://fishpepper.de/projects/opensky/) alternative firmware for FrSky modules, 2016
 * [DeviationTX](https://deviationtx.com/) alternative firmware for Walkera, 2016
 
-## VTX
+## VTX 📺
 
 Videotransmitter (VTX) are analog or digital radio transmitter on your drone, which send usually a videostream of your front camera (first person view - FPV) but can also transmit arbitary information or establish a somewhat regulard bidiractional link between the drone and a groundstation which also offers control uplink etc. See also Ground station.
 
@@ -144,7 +144,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) receive DJI HD signal, alpha from 2021
 * [OpenVTx](https://github.com/OpenVTx/OpenVTx) free firmware for one dedicated anlog VTX
 
-## Camera & Gimbals
+## Camera & Gimbals 🎥
 
 Cameras feed the onboard videotransmitter for downlink or record as DVR with higher quality. See also VTX for custom systems which allow you different camera setups.
 
@@ -154,20 +154,20 @@ Cameras feed the onboard videotransmitter for downlink or record as DVR with hig
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) Firmware and brushless gimbal controller
 * [Open Brushless Gimbal](https://www.thingiverse.com/thing:110731) from 2013
 
-## GPS
+## GPS 🛰️
 
 Global Navigation Systems like GPS allow to determine the current position of your drone. Consumer GPS modules are cheap, but some can be tweaked to gain better accuracy on postprcessing or live.
 
 * [GNSS SDR](https://gnss-sdr.org) Software toolchain to process radio signals of GPS, Baidu, GLONASS that are received by SDR hardware radio backends
 * [rtklib](https://www.rtklib.com) Software toolchain to inrecease precission of GNSS signals by appling realtime or postprocessing to eliminate interferances. Signals recorded by SDR or some commercial GPS modules
 
-## Sensors
+## Sensors 🌡️
 
 A drone uses more sensors like compass, barometer, airspeed or current to increase position estimation, or to show the system performance
 
 * See [Ardupilot - Optional hardware](https://ardupilot.org/copter/docs/common-optional-hardware.html) for ideas
 
-## Video Receivers
+## Video Receivers 📶
 
 Googles have modul bays to support different radio protocols or HDMI input. See also VTX for custom systems which allow you different camera setups.
 
@@ -175,7 +175,7 @@ Googles have modul bays to support different radio protocols or HDMI input. See 
 * [FENIX-rx5808-pro-diversity](https://github.com/JyeSmith/FENIX-rx5808-pro-diversity) 5,8GHz analog module with diversity for googles
 * [rpi-rx5808-stream](https://github.com/xythobuz/rpi-rx5808-stream) RPI based 5,8GHz analog with diversity streaming server
 
-## Antennas and Trackers
+## Antennas and Trackers 📡
 
 Transceiver as well as receivers can be tweaked with custom antenna configurations and tracker can support directional antennas. They use multiple receivers and diversity, or telemetry to point to your drone.
 This is more professional equipment to do beyond VLOS flights and not needed for novice pilots. There are also approaches to use 4G for video and control link for extra extend
@@ -190,7 +190,7 @@ This is more professional equipment to do beyond VLOS flights and not needed for
 * helical
 * clover leaf
 
-## Telemetry & Logs
+## Telemetry & Logs 📊
 
 Sensor values and control information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transfered to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behaviour
 
@@ -208,7 +208,7 @@ Sensor values and control information are shared via common serial protocols whi
 * [openXsensor](https://github.com/openXsensor/openXsensor) Convert and alter telemetry protocols
 * [OpenLog](https://github.com/sparkfun/OpenLog) with [blackbox](https://github.com/thenickdude/blackbox/) firmware for blackbox data recorder (today usually part of main FC)
 
-## Mission Control & Basestation
+## Mission Control & Basestation 🗺️
 
 Ground Control Stations (GCS) on laptops / tablets allow better overview of flight parameters and position for mission control during long range / time flights. Also see [Ardupilot.org - Choosing GCS](https://ardupilot.org/copter/docs/common-choosing-a-ground-station.html).
 
@@ -220,7 +220,7 @@ Ground Control Stations (GCS) on laptops / tablets allow better overview of flig
 * [BulletGCSS](https://github.com/danarrib/BulletGCSS) uses GSM and MQTT for extra long range links
 * [Dreka GCS](https://github.com/Midgrad/Dreka) a new GCS (currently limited but more modern look & feel)
 
-## Companion Computers & Integration
+## Companion Computers & Integration 💻
 
 Your FC is focused on realtime control for maneuvers, while additional computers add ressources for more complex data processing, see also [Arudpilot.org - Companion Computers](https://ardupilot.org/dev/docs/companion-computers.html) and digital VTX systems above.
 
@@ -229,7 +229,7 @@ Your FC is focused on realtime control for maneuvers, while additional computers
 * [ROS](https://github.com/ros/ros) robot operating system, to handle more complex and interactive flights
 * [DroneKit](https://github.com/dronekit/dronekit-python) multi platform integration ecosystem including mavlink radio link
 
-## Computer Vision
+## Computer Vision 🤖
 
 CV is on the processing of what you see at the UAV live image or recordings. This is about aerial mapping, or machine learning powered flight planning. See also [UAV Mapping Guidelines](https://uav-guidelines.openaerialmap.org/).
 
@@ -249,7 +249,7 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 
 
 
-## Complete Systems
+## Complete Systems 🎁
 
 Dedicated drones and toolchains to help on a dedicated topic
 
@@ -258,9 +258,9 @@ Dedicated drones and toolchains to help on a dedicated topic
 * [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) a not so FPV drone that uses custom modules and different technology for swarm control
 * [Wifree-copter](https://open-diy-projects.com/wifree-copter/) easy 3D printed copter that uses RPI as WIFI remote control with App
 
-## Security & Safety
+## Security & Safety 🪂
 
-### Simulators
+### Simulators 🌐
 
 Before you damage any hardware you can learn to avoid common pitfalls and train by virtual flights using your handhelt TX. Other allow to test / benchmark autopilots to work in controlled environments.
 
@@ -274,7 +274,7 @@ The most consumer friendly trainer simlulators are commercial, but available for
 * [GAZEBOsim](https://github.com/gazebosim/gz-sim) multi robot
 * ROS supports simulations like described [by PX4](https://docs.px4.io/master/en/ros/ros2_comm.html)
 
-### Checklists
+### Checklists 📋
 
 Malfunction can have dramatic consequences, as well as your drone can cause massive damages. To avoid unnessesary risks, a step by step protocol and documentation is mandatory for every flight in case you might use your insurance.
 
@@ -283,7 +283,7 @@ Malfunction can have dramatic consequences, as well as your drone can cause mass
 * regular flight check
   * [Ardupilot Copter Checklist](https://ardupilot.org/copter/docs/checklist.html)
 
-### ID Systems
+### ID Systems 🛂
 
 We share the airspace with other pilots. RC copters and planes are hard to spot, so it is recommend to share your position via transponder systems. This allows also tracking of illegal maneuvers.
 
@@ -293,7 +293,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [Glidernet](https://www.glidernet.org) share FLARM / ADS-B positions online
 * [Opensky Network](https://opensky-network.org) share ADS-B positions online
 
-## Hacking & Hijacking
+## Hacking & Hijacking 🔓
 
 Radio links per se are unsave and can easily be jammed.
 
@@ -301,7 +301,7 @@ Radio links per se are unsave and can easily be jammed.
 * [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) or [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf)
 * [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) CVEs for semi-autonomous machines
 
-## Accesoirs
+## Accesoirs 🧰
 
 With 3D printing it is easy to get usefull addons for your equipment and models
 
@@ -313,7 +313,7 @@ With 3D printing it is easy to get usefull addons for your equipment and models
 * rotor guards
 * ...
 
-### Mobile Apps
+### Mobile Apps 📱
 
 Free and useful applications to use on your mobile device. Might be not nessesarry open source
 
@@ -324,18 +324,18 @@ Free and useful applications to use on your mobile device. Might be not nessesar
 * [UAV Forecast](https://www.uavforecast.com) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions [Android](https://play.google.com/store/apps/details?id=com.uavforecast), [iOS](https://apps.apple.com/us/app/uav-forecast/id1050023752)
 * [Go FPV](https://play.google.com/store/apps/details?id=com.vertile.fpv3d) - A UVC Video Camera display and capture app, built for my DIY First Person View goggles.
 
-## Workbench
+## Workbench 🧰
 
 * [smoke stopper](https://oscarliang.com/smoke-stopper/) avoid damaging your components during build up
 * [4AxisFoamCutter](https://github.com/rahulsarchive/4AxisFoamCutter) create aerodynamic wings from foam
 
-## Legal Information
+## Legal Information 🏛️
 
 Depending on the country you live in, the laws and legal rules of airspace may vary.
 
 * [Luftfahrt Bundesamt](https://www.lba.de/DE/Drohnen/Drohnen_node.html) 🇩🇪
 
-## Communities
+## Communities 🗣️
 
 Every hobby makes more fun and progress if you share your ideas and questions to others. Beside the UAV pilot communities there are plenty of modder and hackers out there.
 
