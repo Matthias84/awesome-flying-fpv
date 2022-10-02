@@ -116,7 +116,7 @@ Commercial LiPo battery packs are common in RC, but can be replaced with custom 
 * PDB?
 * BEC?
 * Solar plane
-  * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) - plane with beplanned ribs, 2022.
+  * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) - Plane with beplanned ribs, 2022.
   * [rctestflight series](https://www.youtube.com/watch?v=1OGrDvInUAY) - 8hrs30 fixed wing full of solar cells with great measurements and background infos ([might last 24hrs](https://hackaday.com/2022/09/27/24-hours-of-le-airplanes/)).
 
 ## Motor Control ⚙️
@@ -220,7 +220,7 @@ This is more professional equipment to do beyond VLOS flights and not needed for
 * [open360tracker v2](https://www.thingiverse.com/thing:2568906) - Simplified design, all components in moving head.
 * [open360tracker](https://github.com/SamuelBrucksch/open360tracker) - 360° servo tracker 2016.
   * [Amv-open360tracker](https://github.com/raul-ortega/amv-open360tracker) - Fork 2016.
-  * [Amv-open360tracker 36bit](https://github.com/ericyao2013/amv-open360tracker-32bits) - fork 2016.
+  * [Amv-open360tracker 36bit](https://github.com/ericyao2013/amv-open360tracker-32bits) - Fork 2016.
 * [Ghettostation Antenna Tracker](https://www.thingiverse.com/thing:547358) - Different forks 2014.
 * helical
 * clover leaf
@@ -230,7 +230,7 @@ This is more professional equipment to do beyond VLOS flights and not needed for
 Sensor values and control information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transferred to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behavior
 
 * [MAVlink](https://github.com/mavlink/mavlink) - Modern extensible protocol from hobbiests ... commercial UAV.
-* [Cyphal](https://opencyphal.org) - fka. UAVCAN industrial only drone bus system.
+* [Cyphal](https://opencyphal.org) - Fka. UAVCAN industrial only drone bus system.
 * [YAMSPy](https://github.com/thecognifly/YAMSPy) - Read MSP serial protocol with Python.
 * [LuaTelemetry](https://github.com/teckel12/LuaTelemetry) - OpenTX / EdgeTX script that renders live cockpit and map from telemetry datastream.
 * [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) - Script to show telemetry and control e.g. CAM, VTX settings.
@@ -247,10 +247,10 @@ Sensor values and control information are shared via common serial protocols whi
 
 Ground Control Stations (GCS) on laptops / tablets allow better overview of flight parameters and position for mission control during long range / time flights. Also see [Ardupilot.org - Choosing GCS](https://ardupilot.org/copter/docs/common-choosing-a-ground-station.html).
 
-* [mwptools](https://github.com/stronnag/mwptools) - Mission planner esp. for INAV including INAV Radar and ADS-B sources.
+* [mwptools](https://github.com/stronnag/mwptools) - Waypoint mission planner esp. for INAV including INAV Radar and ADS-B sources.
 * [APM Planner 2.0](https://ardupilot.org/planner2/) - Mavlink compatible, with experience from MP and Q Groundcontrol.
 * [QGroundControl](https://github.com/mavlink/qgroundcontrol) - Mavlink, Desktop and mobile.
-* [MissionPlanner](https://ardupilot.org/planner/index.html).
+* [MissionPlanner](https://ardupilot.org/planner/index.html) - Waypoint Mission planning esp. for Ardupilot
 * [MAVProxy](https://ardupilot.org/mavproxy/) - Commandline and GUI mission planer and telemetry viewer and processor.
 * [BulletGCSS](https://github.com/danarrib/BulletGCSS) - Uses GSM and MQTT for extra long range links.
 * [Dreka GCS](https://github.com/Midgrad/Dreka) - A new GCS (currently limited but more modern look & feel).
@@ -380,7 +380,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [Dronecode foundation](https://www.dronecode.org) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
 * [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
 * [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero) - 🇩🇪 Events, local communities, assurance, ... .
-* [Deutscher Aero Club e.V.](https://www.daec.de) - 🇩🇪,
+* [Deutscher Aero Club e.V.](https://www.daec.de) - 🇩🇪.
 
 ### Forums & Social Media
 
@@ -394,7 +394,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [intofpv.com](https://intofpv.com) - Forum with helpful information about anything FPV related.
 * [INAV fixed wing group](https://inavfixedwinggroup.com/) - Forum, Blog, Builds on fixed wing esp. with INAV compatible autopilot.
 * [fpv-community.de](https://fpv-community.de) - 🇩🇪 Auch Selbstbau.
-* [RC-Network.de](https://RC-Network.de) - 🇩🇪 über Selbstbau auch von Schiffen und Autos. Sehr umfangreiches [Wiki](https://wiki.rc-network.de/wiki/Hauptseite).
+* [RC-Network.de](https://RC-Network.de) - 🇩🇪 Über Selbstbau auch von Schiffen und Autos. Sehr umfangreiches [Wiki](https://wiki.rc-network.de/wiki/Hauptseite).
 * [kopterforum.de](https://kopterforum.de) - 🇩🇪 Auch Selbstbau.
 
 ### Video Channels
