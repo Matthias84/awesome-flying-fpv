@@ -36,13 +36,13 @@ We hope to give you some orientation where to start and present you the full spe
 * [Computer Vision 🤖](#computer-vision-)
 * [Complete Systems 🎁](#complete-systems-)
 * [Security & Safety 🪂](#security--safety-)
-  * [tors 🌐](#simulators-)
+  * [Simulators 🌐](#simulators-)
   * [Checklists 📋](#checklists-)
   * [ID Systems 🛂](#id-systems-)
-* [Hacking & Hijacking 🔓](#hacking--hijacking-)
+  * [Hacking & Hijacking 🔓](#hacking--hijacking-)
 * [Accesoirs 🪠](#accesoirs-)
   * [Mobile Apps 📱](#mobile-apps-)
-* [Workbench 🧰](#workbench-)
+  * [Workbench 🧰](#workbench-)
 * [Legal Information 🏛️](#legal-information-%EF%B8%8F)
 * [Communities 🗣️](#communities-%EF%B8%8F)
   * [Forums & Social Media](#forums-social-media)
@@ -351,7 +351,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [Opensky Network](https://opensky-network.org) - Share ADS-B positions online.
 * [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) - FCC RemoteID with Mavlink and DroneCAN integration
 
-## Hacking & Hijacking 🔓
+### Hacking & Hijacking 🔓
 
 Radio links per se are unsave and can easily be jammed.
 
@@ -382,7 +382,7 @@ Free and useful applications to use on your mobile device. Might be not nessesar
 * [UAV Forecast](https://www.uavforecast.com) - See the weather forecast, GPS satellites, solar activity (Kp), No-Fly Zones and flight restrictions [Android](https://play.google.com/store/apps/details?id=com.uavforecast), [iOS](https://apps.apple.com/us/app/uav-forecast/id1050023752).
 * [Go FPV](https://play.google.com/store/apps/details?id=com.vertile.fpv3d) - A UVC Video Camera display and capture app, built for my DIY First Person View goggles.
 
-## Workbench 🧰
+### Workbench 🧰
 
 * [smoke stopper](https://oscarliang.com/smoke-stopper/) - Avoid damaging your expensive components during build up.
 * [4AxisFoamCutter](https://github.com/rahulsarchive/4AxisFoamCutter) - Create aerodynamic wings from foam.
