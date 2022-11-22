@@ -337,6 +337,7 @@ Malfunction can have dramatic consequences, as well as your drone can cause mass
 
 * build power check
 * maiden flight check
+  * [iNav Pre-maiden Checklist](https://www.mrd-rc.com/tutorials-tools-and-testing/flight-controller-therapy/inav-pre-maiden-checklist-a-helpful-reminder-and-saver-of-foam/) by Mr.D for fixed wing
 * regular flight check
   * [Ardupilot Copter Checklist](https://ardupilot.org/copter/docs/checklist.html).
 
