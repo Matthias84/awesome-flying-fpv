@@ -1,5 +1,7 @@
 # Awesome Flying FPV [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<!--lint disable awesome-toc no-repeat-punctuation match-punctuation -->
+
 This is a list of Free Software and Open Hardware dedicated for multicopters as well as airplanes or flying wings. We list esp. established projects with a active community and also some classics that might be legacy but important projects with a lot of mods.
 
 We hope to give you some orientation where to start and present you the full spectrum of open source development on the world of UAVs.
@@ -118,11 +120,14 @@ Commercial LiPo battery packs are common in RC, but can be replaced with custom 
   * [18650 spaceholder](https://www.printables.com/de/model/1181-18650-improved-spacerholder) - 3D print for easier build.
   * ?Calculation for Configuration
   * ?BMS
-* PDB?
-* BEC?
 * Solar plane
   * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) - Plane with beplanned ribs, 2022.
   * [rctestflight series](https://www.youtube.com/watch?v=1OGrDvInUAY) - 8hrs30 fixed wing full of solar cells with great measurements and background infos ([might last 24hrs](https://hackaday.com/2022/09/27/24-hours-of-le-airplanes/)).
+
+### PDB?
+
+### BEC?
+
 
 ## Motor Control ⚙️
 
@@ -149,7 +154,7 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 
 ## RC Transmitters & Handcontroller 🎮
 
-Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.  
+Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) and serial interfaces to adapt to different radio protocols. See also Ground station.
 Most receivers (RX, drone side) support standard serial protocols like Crossfire (CSRF) to talk with the FC.
 
 * [EdgeTX](https://github.com/EdgeTX/edgetx) - Successor of OpenTX under active development.
@@ -217,7 +222,8 @@ A drone uses more sensors like compass, barometer, airspeed or current to increa
 
 * [QLiteOSD](https://github.com/Qrome/QLiteOSD) - ESP32 based OSD to read sensors without FC
 * [3D Printed Drone Build - How to Wire OpenHD and Ultrasonic Abstacle Avoidance](https://www.youtube.com/watch?v=HNR1mqUDpoE) - ultrasonic obstacle avoidance for quadcopter and OpenHD
-* See [Ardupilot - Optional hardware](https://ardupilot.org/copter/docs/common-optional-hardware.html) for ideas.
+
+See [Ardupilot - Optional hardware](https://ardupilot.org/copter/docs/common-optional-hardware.html) for more ideas.
 
 ## Video Receivers 📶
 
@@ -304,7 +310,6 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 * [AirPose](https://github.com/robot-perception-group/AirPose) - ML human pose estimation from drone perspective.
 
 
-
 ## Complete Systems 🎁
 
 Dedicated drones and toolchains to help on a dedicated topic
@@ -335,11 +340,15 @@ The most consumer friendly trainer simulators are commercial, but available for 
 
 Malfunction can have dramatic consequences, as well as your drone can cause massive damages. To avoid unnecessary risks, a step by step protocol and documentation is mandatory for every flight in case you might use your insurance.
 
-* build power check
-* maiden flight check
-  * [iNav Pre-maiden Checklist](https://www.mrd-rc.com/tutorials-tools-and-testing/flight-controller-therapy/inav-pre-maiden-checklist-a-helpful-reminder-and-saver-of-foam/) by Mr.D for fixed wing
-* regular flight check
-  * [Ardupilot Copter Checklist](https://ardupilot.org/copter/docs/checklist.html).
+#### build power check
+
+#### maiden flight check
+
+* [iNav Pre-maiden Checklist](https://www.mrd-rc.com/tutorials-tools-and-testing/flight-controller-therapy/inav-pre-maiden-checklist-a-helpful-reminder-and-saver-of-foam/) by Mr.D for fixed wing
+
+#### regular flight check
+
+* [Ardupilot Copter Checklist](https://ardupilot.org/copter/docs/checklist.html).
 
 ### ID Systems 🛂
 
@@ -357,7 +366,8 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 Radio links per se are unsave and can easily be jammed.
 
 * [5.8GHz video demodulation](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - Using hack-rf SDR.
-* [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) or [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf).
+* [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) - use BladeRF SDR with GNUradio to block satellites
+* [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf) - Controll others UAVs by faking satellite transmissions from ground
 * [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) - CVEs for semi-autonomous machines.
 
 ## Accesoirs 🪠
@@ -375,7 +385,6 @@ With 3D printing it is easy to get useful addons for your equipment and models
 ### Mobile Apps 📱
 
 Free and useful applications to use on your mobile device. Might be not nessesarry open source
-
 
 * [SpeedyBee](https://www.speedybee.com/speedy-bee-app/) - Is an Appllication for Flight controller parameters settings and blackbox log reader for betaflight, iNAV, emuflight  [Android](https://play.google.com/store/apps/details?id=com.runcam.android.runcambf), [iOS](https://apps.apple.com/us/app/speedybee-app/id1150315028).
 * [BLHeli_32](https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32) - App is for configuring BLHeli_32 ESCs.
@@ -414,7 +423,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [openrcforums.com](https://openrcforums.com) - From the old days till the present working on open modells.
 * [Stackexchange Drones](https://drones.stackexchange.com/) - Is Stack Overflow Q&A for drone building.
 * [reddit \\motorcopter](https://www.reddit.com/r/Multicopter/) - Everything from flights, crashes, repairs, custom mods, ... .
-* [reddit \\RCPlanes](https://www.reddit.com/r/RCPlanes/) - Everything but for RC planes
+* [reddit \\RCPlanes](https://www.reddit.com/r/RCPlanes/) - Everything but for RC planes.
 * [OscarLiang.com](https://OscarLiang.com) - Important blog with builds and configurations and knowledge.
 * [intofpv.com](https://intofpv.com) - Forum with helpful information about anything FPV related.
 * [INAV fixed wing group](https://inavfixedwinggroup.com/) - Forum, Blog, Builds on fixed wing esp. with INAV compatible autopilot.
@@ -436,4 +445,4 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 * [flitetest.com](https://flitetest.com) - TV show, unusual DIY builds.
 * [Livyu FPV](https://www.youtube.com/c/LivyuFPV/videos) - Flight footage and repair videos for DIY drone electronics.
 * [Adam G does FPV](https://www.youtube.com/c/AdamGdoesFPV) - Builds, mods and basics.
-* [BLuefish](https://www.youtube.com/channel/UCmULLc8W-knTqiFqJgw3-FA) - builds, INAV, longrange
+* [BLuefish](https://www.youtube.com/channel/UCmULLc8W-knTqiFqJgw3-FA) - builds, INAV, longrange.
