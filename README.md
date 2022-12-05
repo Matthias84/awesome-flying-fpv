@@ -376,6 +376,7 @@ Radio links per se are unsave and can easily be jammed.
 With 3D printing it is easy to get useful addons for your equipment and models
 
 * [Delta 5 race timer](https://github.com/scottgchin/delta5_race_timer) - Use 5.8GHz video signals to trigger lap counter.
+  * [RotorHazard](https://github.com/RotorHazard/RotorHazard) - sucessor with multinode and central RPI server
 * [Capture The Flag for drones](https://github.com/SeekND/CaptureTheFlag) - Optical system to emulate a flag for close team-fights.
 * Gimbal protection
 * holder & stands
