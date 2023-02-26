@@ -193,8 +193,8 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) - Oldest first wifi.
 * [wtfos](https://github.com/fpv-wtf/wtfos) - Rooting and mod DJI FPV sender and receiver.
 * [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) - Receive DJI HD signal, alpha 2021.
-* [OpenVTx](https://github.com/OpenVTx/OpenVTx) - Free firmware for one dedicated anlog VTX.
-* [](https://github.com/mrRobot62/vtx_power_measure) - Python scripting the Immersion RF-Meter V2
+* [OpenVTx](https://github.com/OpenVTx/OpenVTx) - Free firmware for open hardware anlog VTX.
+* [VTX Power Measure](https://github.com/mrRobot62/vtx_power_measure) - Python scripting the Immersion RF-Meter V2
 
 ## Camera & Gimbals 🎥
 
