@@ -65,8 +65,10 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 
 Copters are built using different materials from alu / carbon profiles to CNC cuts to full 3D printed cases and have different configurations for different number of rotors (bi... octo):
 
-* [NanoLongRange](https://www.thingiverse.com/thing:4769576) - 3D printed frame with mostly a 18650 Liion cell and a all-in-one board for whoops.
-* [NanoLongRange 2](https://www.thingiverse.com/thing:4818009) - Supporting also 21700 Liion cell and slightly lighter.
+* [NanoLongRange](https://www.thingiverse.com/thing:4769576) - 3D printed frame with mostly a 18650 Liion cell and a all-in-one board for whoops, 2021.
+  * [Discovery Edition](https://www.thingiverse.com/thing:5428365) - optimized frame with integrated battery holder
+  * [NanoLongRange 2](https://www.thingiverse.com/thing:4818009) - With GPS and slightly lighter in 3 versions.
+  * [NLR35](https://www.thingiverse.com/thing:5428923) - Similar but 21700 cell
 * [Ultimate 3D printable Cinewhoop](https://www.thingiverse.com/thing:4502805) - 2020.
 * [TinyTina](https://blog.prusaprinters.org/how-to-build-a-3d-printed-micro-drone_29310/) - 3D printed whoop, 2018.
 * [Heavy Lift Quadcopter Frame](https://www.thingiverse.com/thing:4089842) - CNC cut by carbon, 2020.
