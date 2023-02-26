@@ -92,8 +92,11 @@ Traditional RC airplanes are created using balsa wood and foil covered rips for 
 * [V-Tail Aircraft for Long Range FPV & Autonomous Missions - by AeroStuff FPV](https://www.youtube.com/watch?v=sTjXVeo_lpQ) - Use folded depron panels for body and wings for a V-Tail pusher
 * [Highly Modular Design -1 (HMD1)](https://forum.flitetest.com/index.php?threads/large-modular-uav-design.69987/) - 3D printed ABS V-tail plane for research, 2022
 * [Ranger V2](https://craycle.com/product/ranger-v2-800-mm-3ch-trainer-stl-file/) - sub 1m pusher trainer plane, 2022
+* [Berkik 3 wing](https://www.youtube.com/watch?v=ZA8fGOzJB10) - 1.3m depron wing ,2021.
 * [LukiSegler](https://www.printables.com/de/model/76098-lukisegler-electric-rc-glider) - Glider, 2021.
-* [SakhWing](https://www.thingiverse.com/thing:4547317) - Drak like fixed wing printed with PETG, 2020
+* [SakhWing](https://www.thingiverse.com/thing:4547317) - Drak like fixed wing printed with PETG, 2020.
+* [GemINIce](https://www.youtube.com/watch?v=PcScS4Cj_Iw&list=PLEH_vTrFddgP8bRQFMK_z8rwmRth60Fen) - 2 props dpron airplane 
+* [Joywing](https://www.youtube.com/watch?app=desktop&v=X6hJCQNxVzs) - simple race wing, 2019.
 * [Eclipson Model V](https://www.thingiverse.com/thing:4011218) - Mostly 3D printed commercial airplane with wheels, 2019.
 * [Eclipson Model Y](https://www.thingiverse.com/thing:2752892) - Mostly 3D printed commercial airplane with wheels, 2018.
 * [Northern Pike](https://www.thingiverse.com/thing:3040294) - 36" fixed wing 3D printed, 2018.
@@ -103,7 +106,8 @@ Traditional RC airplanes are created using balsa wood and foil covered rips for 
 * [GASB Three](https://www.thingiverse.com/thing:3605665) - Fixed wing 3D printed, 2019.
 * [GASB Two](https://www.thingiverse.com/thing:1831295) - Fixed wing jet 3D printed with electric ducted fan (EDF) instead of classic propeller, 2016.
 * [GASB One](https://www.thingiverse.com/thing:1659724) - 80cm fixed wing 3D printed, developed in 6 revisions, 2016.
-* [Red swan](https://www.thingiverse.com/thing:453090) - 1950mm printed plane with wing ribs, sucessor of Red Duck modell, 2014
+* [Red swan](https://www.thingiverse.com/thing:453090) - 1950mm printed plane with wing ribs, sucessor of Red Duck modell, 2014.
+* [Le Fish glider](https://lefish.fandom.com/wiki/Building_Le_Fish#Plans) - open source aerobatics glider with a lot of remixes, 2005.
 
 ### VTOLs 🚀
 
@@ -127,6 +131,7 @@ Todos: PDB, BEC, BMS, Calculation for Configuration
 * Solar plane
   * [Solar Dragon - Solar Plane Might Be Able To Last Through The Night](https://hackaday.com/2022/08/06/solar-plane-might-be-able-to-last-through-the-night/) - Plane with beplanned ribs, 2022.
   * [rctestflight series](https://www.youtube.com/watch?v=1OGrDvInUAY) - 8hrs30 fixed wing full of solar cells with great measurements and background infos ([might last 24hrs](https://hackaday.com/2022/09/27/24-hours-of-le-airplanes/)).
+* [diyBMS v4](https://github.com/stuartpittaway/diyBMSv4) - Battery management PCB and firmware for LIION packs.
 
 
 ## Motor Control ⚙️
@@ -136,6 +141,8 @@ Usually brushless DC motors (BLDC) are used for their power and precision. They 
 * [BLheli](https://github.com/bitdump/BLHeli) - Popular Firmware for ESCs with fine-grained control.
 * [BlueJay](https://github.com/mathiasvr/bluejay) - Digital ESC firmware for controlling brushless motors in multirotors forked from BLHeli.
 * [MESC FOC ESC](https://github.com/davidmolony/MESC_FOC_ESC) - Open Hardware and Firmware for STM32 basrd ESC
+* [ESC Configurator](https://github.com/stylesuxx/esc-configurator) - web app to setup your BLHeli / Bluejay ESC
+* [PIDtoolbox](https://github.com/bw1129/PIDtoolbox) - tuning your PID settings for max. performance of your specific modell
 
 ## Flight Control 👨‍✈️
 
@@ -147,10 +154,13 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 * [dRonin](https://github.com/d-ronin/dronin/) - Supporting Openpilot and other target boards.
 * [Ardupilot](https://ardupilot.org) - Full ecosystem including professional / research use for wings and copters and even land or water vehicles. A lot of information, experiences and possibilities, but also more complex than INAV.
 * [dRehmflight](https://github.com/nickrehm/dRehmFlight) - dedicated to VTOLs and it's transformation during flight process, Teensy Boards only.
+* [Rotorflight](https://github.com/rotorflight/rotorflight) - firmware for traditional single-rotor helicopters
 * [CleanFlight](https://github.com/cleanflight/cleanflight) - legacy fork of baseflight , stall
 * [BaseFlight](https://github.com/multiwii/baseflight) - legacy and oldest FW of the days of Wii gyro hacks and 8bit, stall
-* [Paparazzi UAV](https://github.com/paparazzi/paparazzi)
+* [QUICKSILVER firmware](https://github.com/BossHobby/QUICKSILVER) - ?.
+* [Paparazzi UAV](https://github.com/paparazzi/paparazzi) - ?.
 * [LibrePilot](https://github.com/librepilot/LibrePilot) - Stall since 2018.
+* [Risc V Powering a 3D Printed Drone](https://www.youtube.com/watch?v=TJCeLOiP7lU) - RISCV cpu experiments on DIY quadcopter?
 
 ## RC Transmitters & Handcontroller 🎮
 
@@ -178,6 +188,7 @@ Hardware and firmware to establish custom radio links. Nowadays usually a bidire
 
 * [Multi Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module) - Supports different protocols like FrSky, FlySky, Walkera, Futaba, ... .
 * [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) - ELRS for long range or better latency. support. flashing some existing hardware, but also provide commercial modules for 868/915 MHz or 2.4 / 5.8 GHz.
+  * [ELRS Airport Firmware](https://github.com/ExpressLRS/ExpressLRS/pull/1904) - 2 way link for more complex telemetry downlink
 * [mLRS](https://github.com/olliw42/mLRS) - Mavlink compatible LRS
 * [openLRSng](https://github.com/openLRSng/openLRSng) - Next generation of OpenLRS, stall 2018
 * [Raven LRS](https://github.com/RavenLRS/raven) - Lora based, 2019.
@@ -298,6 +309,7 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 * [OpenDroneMap](https://www.opendronemap.org/) - Stitch photos to aerial imagery, calc 3D models, ... .
 * [OpenAerialMap](https://github.com/hotosm/OpenAerialMap/) - Share Drone shots for disaster response etc.
 * [DroneDB](https://github.com/DroneDB/DroneDB) - Store and archive drone shots and aerial imagery.
+* [OpenAthena](https://github.com/mkrupczak3/OpenAthena) - Auto GCP detection using markers
 * [OpenMMS](https://www.openmms.org/) - Mobile mapping system that carries a laser scanner.
 * [BANet](https://github.com/lironui/BANet) - ML segmentation of areas for aerial imagery.
 * [AVCBet](https://github.com/lironui/ABCNet) - ML segmentation of areas for aerial imagery.
@@ -317,6 +329,7 @@ Dedicated drones and toolchains to help on a dedicated topic
 * [SearchWing](https://www.hs-augsburg.de/searchwing/de/willkommen/) - A Search and Rescue RC airplane for visual inspection of huge areas on sea to rescue people from refugee boats at the EU sea border. Waterproof to land beside the SAR mothership.
 * [Dronecoria](https://dronecoria.org) - Octocopter made from wood as heavy lift to drop seeds.
 * [Crazyflie](https://www.bitcraze.io/documentation/system/platform/) - A not so FPV drone that uses custom modules and different technology for swarm control.
+* [ESP32 Drone](https://hackaday.io/project/188578-esp32-drone) - no traditional FPV, but low cost quad using ESP32 board, 2022.
 * [Wifree-copter](https://open-diy-projects.com/wifree-copter/) - Easy 3D printed copter that uses RPI as WIFI remote control with App, 2016.
 
 ## Security & Safety 🪂
@@ -359,7 +372,8 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [SoftRF](https://github.com/lyusupov/SoftRF) - UAV edition, supports also FLARM and more.
 * [Glidernet](https://www.glidernet.org) - Share FLARM / ADS-B positions online.
 * [Opensky Network](https://opensky-network.org) - Share ADS-B positions online.
-* [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) - FCC RemoteID with Mavlink and DroneCAN integration
+* [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) - FCC RemoteID with Mavlink and DroneCAN integration.
+* [WiFi RID capture](https://github.com/sxjack/unix_rid_capture) - capture remote identification signals  with sniffer.
 
 ### Hacking & Hijacking 🔓
 
