@@ -376,7 +376,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 
 ### Hacking & Hijacking 🔓
 
-Radio links per se are unsave and can easily be jammed.
+Radio links per se are unsafe and can easily be jammed.
 
 * [5.8GHz video demodulation](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - Using hack-rf SDR.
 * [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) - Use BladeRF SDR with GNUradio to block satellites.
