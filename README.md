@@ -65,6 +65,7 @@ You will find also a lot of spare parts or mods / extensions to commercial vehic
 
 Copters are built using different materials from alu / carbon profiles to CNC cuts to full 3D printed cases and have different configurations for different number of rotors (bi... octo):
 
+* [Goblin v3](https://www.printables.com/de/model/396395-goblin-fpv-drone) - 3D printed frame, 4S power, 16x16 AIO stack, 2023.
 * [NanoLongRange](https://www.thingiverse.com/thing:4769576) - 3D printed frame with mostly a 18650 Liion cell and a all-in-one board for whoops, 2021.
   * [Discovery Edition](https://www.thingiverse.com/thing:5428365) - Optimized frame with integrated battery holder, 2022.
   * [NanoLongRange 2](https://www.thingiverse.com/thing:4818009) - With GPS and slightly lighter in 3 variants also for 21700 cells, 2021.
