@@ -374,6 +374,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [Opensky Network](https://opensky-network.org) - Share ADS-B positions online.
 * [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) - FCC RemoteID with Mavlink and DroneCAN integration.
 * [WiFi RID capture](https://github.com/sxjack/unix_rid_capture) - Capture remote identification signals  with sniffer.
+* [Drone Detection and Tracking Using RF Identification Signals ](https://www.mdpi.com/1424-8220/23/17/7650) - Track DJI drones using wifi and KISMET sniffer.
 
 ### Hacking & Hijacking 🔓
 
