@@ -285,7 +285,8 @@ Sensor values and control information are shared via common serial protocols whi
 * [UAVLogViewer](https://github.com/ardupilot/uavlogviewer) - Web application for Ardupilot logs.
 * [OSD-subtitles](https://github.com/kristjanbjarni/osd-subtitles) - Render Blackbox logs to OSD as subtitle for synconous plaback with video file.
 * [Dashware](http://www.dashware.net/dashware-download/) - Closed Source OSD rendering for blackbox logs.
-* [PID-Analyzer](https://github.com/Plasmatree/PID-Analyzer) - Read blackbox and tune PID control variables. 
+* [PID-Analyzer](https://github.com/Plasmatree/PID-Analyzer) - Read blackbox and tune PID control variables.
+* [FPVtune](https://github.com/chugzb/betaflight-pid-autotuning) - Automatic Betaflight PID tuning from blackbox logs. Upload, analyze, get optimized settings in minutes. 
 * [openXsensor](https://github.com/openXsensor/openXsensor) - Convert and alter telemetry protocols.
 * [OpenLog](https://github.com/sparkfun/OpenLog) - With [blackbox](https://github.com/thenickdude/blackbox/) firmware for blackbox data recorder (today usually part of main FC).
 
