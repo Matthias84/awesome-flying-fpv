@@ -186,7 +186,8 @@ Most receivers (RX, drone side) support standard serial protocols like Crossfire
 * [opentx-lua-widgets](https://github.com/Matze-Jung/opentx-lua-widgets) - More UI widgets to present telemetry.
 * [opentx-lua-running-graphs](https://github.com/Matze-Jung/opentx-lua-running-graphs) - More visual graphs as widgets.
 * [OpenTX-Pong](https://github.com/SpechtD/OpenTX-Pong) - Simple game for your TX.
-* [Ardino Transmitter for ELRS](https://github.com/kkbin505/Arduino-Transmitter-for-ELRS) - Simple gamepad like hand transmitter based on Arduino
+* [ELRS-Joystick-Control](https://github.com/kaack/elrs-joystick-control) - ELRS Module directly connected to GCS with joysticks.
+* [Arduino Transmitter for ELRS](https://github.com/kkbin505/Arduino-Transmitter-for-ELRS) - Simple gamepad like hand transmitter based on Arduino
 * [OpenAVRc](https://github.com/Ingwie/OpenAVRc_Hw) - Custom TX based on Arduino Mega2560 boards.
 * [ER9X](http://www.er9x.com) - Alternative Firmware for 9XR handtransmitter.
 
@@ -224,6 +225,7 @@ Cameras feed the onboard videotransmitter for downlink or record as DVR with hig
 
 * [Gyroflow](https://github.com/gyroflow/gyroflow) - Use IMU sensor data to smooth HD video recordings.
 * [OpenHD on thermal cameras](https://openhd.gitbook.io/open-hd/hardware/cameras) - How to user RPI to read this sensors.
+* [opentrack](https://github.com/opentrack/opentrack) - Use integrated trackers of FPV googles or VR headsets as input.
 * [RC Headtracker](https://github.com/dlktdr/HeadTracker) - Turn camera gimbal when you turn your googles. Based on Arduino and Bluetooth.
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) - Firmware and brushless gimbal controller.
 * [Open Brushless Gimbal](https://www.thingiverse.com/thing:110731) - 2013.
