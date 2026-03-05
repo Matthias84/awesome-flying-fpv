@@ -332,6 +332,7 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 * [Fire Detection UAV](https://github.com/AlirezaShamsoshoara/Fire-Detection-UAV-Aerial-Image-Classification-Segmentation-UnmannedAerialVehicle) - ML learn drones to spot fire.
 * [DroneAid](https://github.com/Call-for-Code/DroneAid) - ML find persons in disaster response by emergency markers.
 * [AirPose](https://github.com/robot-perception-group/AirPose) - ML human pose estimation from drone perspective.
+* [AruCo landing](https://github.com/radekholy24/aruco-landing) - ML ROS addon to land on marker positions
 
 
 ## Complete Systems 🎁
