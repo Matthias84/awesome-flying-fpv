@@ -416,6 +416,7 @@ Radio links per se are unsafe and can easily be jammed.
 * [GPS jamming](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) - Use BladeRF SDR with GNUradio to block satellites.
 * [GPS spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf) - Controll others UAVs by faking satellite transmissions from ground.
 * [RemoteID Spammer/Spoofer](https://github.com/jjshoots/RemoteIDSpoofer) - An ESP8266/NodeMCU Drone RemoteID Spoofer
+* [Accoustic drone tracking](https://www.youtube.com/watch?v=cSuV9xzcgXY&feature=youtu.be) - Paper by Fraunhofer IDMT.
 * [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) - CVEs for semi-autonomous machines.
 
 ## Accesoirs 🪠
