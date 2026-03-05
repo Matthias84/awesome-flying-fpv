@@ -217,6 +217,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [wfb-ng on OpenIPC](https://github.com/OpenIPC/sandbox-fpv) - Wifibroadcast NG on OpenIPC compatible CCTV modules, capable of 120fps or 4k video feeds with telemetry. Existing commercial kits from various vendors (aka. EMAX Wyvern Link, Runcam Wifilink).
 * [DroneBridge](https://github.com/DroneBridge/DroneBridge) - Use 2.4 GHz wifi hardware and RPIs, ESP32 and Android App for bidirectional link, [Comparison](https://dronebridge.gitbook.io/docs/comparison) to the other protocols here.
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) - Oldest and first wifi based VTX setup.
+* [hx-esp32-cam-fpv](https://github.com/RomanLut/hx-esp32-cam-fpv)- Cheap ESPcam boards transimitting MJPEG frames.
 * [wtfos](https://github.com/fpv-wtf/wtfos) - Rooting and mod DJI FPV sender and receiver.
 * [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) - Receive DJI HD signal, alpha 2021.
 * [OpenVTx](https://github.com/OpenVTx/OpenVTx) - Free firmware for open hardware anlog VTX.
