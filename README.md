@@ -337,6 +337,7 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 
 Dedicated drones and toolchains to help on a dedicated topic
 
+* [Sonora Medical Delivery Planes](https://www.peanutbuttertunaspoon.org) - Deliver medical kits to the Mexican outback using RC airplanes
 * [Guiness World record drone build](https://www.youtube.com/watch?v=RoSSaSkOTTc) - How a 300mph / 480 km/h quadcopter rocket needs to be designed and build. Similar is the [AOSHS5 build](https://www.youtube.com/watch?v=oG2GaSMlfdo) (but only 200mph).
 * [Arduino FPV Mini Drone](https://www.instructables.com/Make-a-Tiny-Arduino-Drone-With-FPV-Camera/) - Woodframed mini quad without BLDC and custom RF link around MultiWII
 * [SearchWing](https://www.hs-augsburg.de/searchwing/de/willkommen/) - A Search and Rescue RC airplane for visual inspection of huge areas on sea to rescue people from refugee boats at the EU sea border. Waterproof to land beside the SAR mothership.
