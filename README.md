@@ -228,6 +228,7 @@ Cameras feed the onboard videotransmitter for downlink or record as DVR with hig
 
 * [Gyroflow](https://github.com/gyroflow/gyroflow) - Use IMU sensor data to smooth HD video recordings.
 * [OpenHD on thermal cameras](https://openhd.gitbook.io/open-hd/hardware/cameras) - How to user RPI to read this sensors.
+* [TetraPI](https://github.com/bluegreen-labs/TetraPi) - Multispectra RPI based camera module.
 * [opentrack](https://github.com/opentrack/opentrack) - Use integrated trackers of FPV googles or VR headsets as input.
 * [RC Headtracker](https://github.com/dlktdr/HeadTracker) - Turn camera gimbal when you turn your googles. Based on Arduino and Bluetooth.
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) - Firmware and brushless gimbal controller.
