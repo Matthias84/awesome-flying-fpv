@@ -396,6 +396,7 @@ We share the airspace with other pilots. RC copters and planes are hard to spot,
 * [SoftRF](hhttps://github.com/lyusupov/SoftRF/wiki/Nano-Edition) - Nano edition, supports also FLARM and more.
 * [Glidernet](https://www.glidernet.org) - Share FLARM / ADS-B positions online.
 * [Opensky Network](https://opensky-network.org) - Share ADS-B positions online.
+* [Stratux](https://github.com/stratux/stratux) - Share position and course via different radio transmitters.
 * [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) - FCC RemoteID with Mavlink and DroneCAN integration.
 * [WiFi RID capture](https://github.com/sxjack/unix_rid_capture) - Capture remote identification signals  with sniffer.
 * [Drone Detection and Tracking Using RF Identification Signals ](https://www.mdpi.com/1424-8220/23/17/7650) - Track DJI drones using wifi and KISMET sniffer.
