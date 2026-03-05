@@ -212,7 +212,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [OpenHD](https://github.com/OpenHD/Open.HD) - Use 2.4 / 5.8 GHz wifi hardware and SBCs on air and groundside to provide a video and telemetry downlink and an optional control uplink. Try to develop a more efficient dedicated hardware board. [Compare different open digital links](https://openhd.gitbook.io/open-hd/general/openhd-vs-alternatives).
 * [RubyFPV](https://rubyfpv.com) - Use 2.4 / 5.8 GHz wifi hardware and RPIs to provide a video and telemetry downlink and an optional control uplink. No source provided but plugin system.
 * [Wifibroadcast NG](https://github.com/svpcom/wifibroadcast) - Use 2.4 / 5.8 GHz wifi hardware and RPIs to provide a video and telemetry downlink.
-* [wfb-ng on OpenIPC](https://github.com/OpenIPC/sandbox-fpv) - Wifibroadcast NG on OpenIPC compatible CCTV modules, capable of 120fps or 4k video feeds with telemetry
+* [wfb-ng on OpenIPC](https://github.com/OpenIPC/sandbox-fpv) - Wifibroadcast NG on OpenIPC compatible CCTV modules, capable of 120fps or 4k video feeds with telemetry. Existing commercial kits from various vendors (aka. EMAX Wyvern Link, Runcam Wifilink).
 * [DroneBridge](https://github.com/DroneBridge/DroneBridge) - Use 2.4 GHz wifi hardware and RPIs, ESP32 and Android App for bidirectional link, [Comparison](https://dronebridge.gitbook.io/docs/comparison) to the other protocols here.
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) - Oldest and first wifi based VTX setup.
 * [wtfos](https://github.com/fpv-wtf/wtfos) - Rooting and mod DJI FPV sender and receiver.
@@ -329,6 +329,7 @@ CV is on the processing of what you see at the UAV live image or recordings. Thi
 * [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) - Learn drones to avoid obstacles on the course.
 * [Autonomous Drone Dodges Obstacles Without GPS](https://hackaday.com/2021/11/03/autonomous-drone-dodges-obstacles-without-gps/) - RPI based CV and route planning and obstacle avoidance.
 * [Drone-net](https://github.com/chuanenlin/drone-net) - ML detect quadcopters within photos / videos using YOLO v4.
+* [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV) - ML detect quadcopters within IR / RGB videos
 * [Fire Detection UAV](https://github.com/AlirezaShamsoshoara/Fire-Detection-UAV-Aerial-Image-Classification-Segmentation-UnmannedAerialVehicle) - ML learn drones to spot fire.
 * [DroneAid](https://github.com/Call-for-Code/DroneAid) - ML find persons in disaster response by emergency markers.
 * [AirPose](https://github.com/robot-perception-group/AirPose) - ML human pose estimation from drone perspective.
