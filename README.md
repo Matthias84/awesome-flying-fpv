@@ -200,7 +200,8 @@ Most receivers (RX, drone side) support standard serial protocols like Crossfire
 
 Hardware and firmware to establish custom radio links. Nowadays usually a bidirectional link, so pure TX / RX side.
 
-* [Multi Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module) - Supports different protocols like FrSky, FlySky, Walkera, Futaba, ... .
+* [ELRS Mobile](https://github.com/wbhinton/ELRS-Mobile) - Free and Open Source mobile configuration and flashing utility for ExpressLRS hardware. Supports native device configuration, offline flashing, and works on [Android](https://play.google.com/store/apps/details?id=io.datarx.elrsmobile)/[iOS](https://apps.apple.com/us/app/elrs-mobile/id6760490014). 
+*  [Multi Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module) - Supports different protocols like FrSky, FlySky, Walkera, Futaba, ... .
 * [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) - ELRS for long range or better latency. support. flashing some existing hardware, but also provide commercial modules for 868/915 MHz or 2.4 / 5.8 GHz.
   * [ELRS Airport Firmware](https://github.com/ExpressLRS/ExpressLRS/pull/1904) - 2 way link for more complex telemetry downlink.
 * [mLRS](https://github.com/olliw42/mLRS) - Mavlink compatible LRS.
