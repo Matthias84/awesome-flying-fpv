@@ -152,6 +152,7 @@ Usually brushless DC motors (BLDC) are used for their power and precision. They 
 * [AM32-MultiRotor-ESC-FW](https://github.com/am32-firmware/AM32) - DSHOT, telemetry, 2024
 * [MESC FOC ESC](https://github.com/davidmolony/MESC_FOC_ESC) - Open Hardware and Firmware for STM32 basrd ESC.
 * [ESC Configurator](https://github.com/stylesuxx/esc-configurator) - Web app to setup your BLHeli / Bluejay ESC.
+* [FPVtune](https://github.com/chugzb/betaflight-pid-autotuning) - open-source Betaflight blackbox analyzer that suggests PID, filter and feedforward settings.
 * [PIDtoolbox](https://github.com/bw1129/PIDtoolbox) - tuning your PID settings for max. performance of your specific modell.
 
 ## Flight Control 👨‍✈️
