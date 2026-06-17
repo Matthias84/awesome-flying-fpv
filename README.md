@@ -295,6 +295,7 @@ Sensor values and control information are shared via common serial protocols whi
 * [OSD-subtitles](https://github.com/kristjanbjarni/osd-subtitles) - Render Blackbox logs to OSD as subtitle for synconous plaback with video file.
 * [Dashware](http://www.dashware.net/dashware-download/) - Closed Source OSD rendering for blackbox logs.
 * [PID-Analyzer](https://github.com/Plasmatree/PID-Analyzer) - Read blackbox and tune PID control variables. 
+* [FPVTune](https://github.com/chugzb/betaflight-pid-autotuning) - Analyze Betaflight blackbox logs and suggest PID/filter tuning guidance.
 * [openXsensor](https://github.com/openXsensor/openXsensor) - Convert and alter telemetry protocols.
 * [OpenLog](https://github.com/sparkfun/OpenLog) - With [blackbox](https://github.com/thenickdude/blackbox/) firmware for blackbox data recorder (today usually part of main FC).
 
