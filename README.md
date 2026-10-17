@@ -152,13 +152,12 @@ Usually brushless DC motors (BLDC) are used for their power and precision. They 
 * [AM32-MultiRotor-ESC-FW](https://github.com/am32-firmware/AM32) - DSHOT, telemetry, 2024
 * [MESC FOC ESC](https://github.com/davidmolony/MESC_FOC_ESC) - Open Hardware and Firmware for STM32 basrd ESC.
 * [ESC Configurator](https://github.com/stylesuxx/esc-configurator) - Web app to setup your BLHeli / Bluejay ESC.
-* [PIDtoolbox](https://github.com/bw1129/PIDtoolbox) - tuning your PID settings for max. performance of your specific modell.
 
 ## Flight Control 👨‍✈️
 
 Modern autopilot software require STM32 based boards with F4/F7 chip generation and usually no longer support legacy boards like NAZE32, CC3D, ArduPilot, etc. Most projects are base on Baseflight / Cleanflight firmware and Desktop Configurator.
 
-* [INAV](https://github.com/light/inav) - Focus on GPS based flight planning / autonomous flights for wings and copters.
+* [INAV](https://github.com/iNavFlight/inav) - Focus on GPS based flight planning / autonomous flights for wings and copters.
 * [betaflight](https://github.com/betaflight/betaflight) - Focus on racing and agility for wings and copters.
 * [EmuFlight](https://github.com/emuflight/EmuFlight) - Focus on modern algorithms.
 * [dRonin](https://github.com/d-ronin/dronin/) - Supporting Openpilot and other target boards.
@@ -373,7 +372,7 @@ The most consumer friendly trainer simulators are commercial, but available for 
 * [jMAVSim](https://github.com/PX4/jMAVSim) - For Mavlink.
 * [JSBsim](https://github.com/JSBSim-Team/jsbsim) - With bindings to Python, Matlab.
 * [GAZEBOsim](https://github.com/gazebosim/gz-sim) - Multi robot.
-* ROS supports simulations like described [by PX4](https://docs.px4.io/master/en/ros/ros2_comm.html).
+* ROS supports simulations like described [by PX4](https://docs.px4.io/main/en/ros2/).
 
 ### Checklists 📋
 
@@ -471,7 +470,7 @@ Every hobby makes more fun and progress if you share your ideas and questions to
 
 ### Forums & Social Media
 
-* [rcroups.com](https://rcroups.com) - Most projects offer here support.
+* [rcgroups.com](https://www.rcgroups.com/) - Most projects offer here support.
 * [diydrones.com](https://diydrones.com) - Group to most projects, hardware and countries.
 * [rotorbuilds.com](https://rotorbuilds.com) - Recipes to custom builds.
 * [openrcforums.com](https://openrcforums.com) - From the old days till the present working on open modells.
