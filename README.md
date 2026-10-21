@@ -366,6 +366,8 @@ Before you damage any hardware you can learn to avoid common pitfalls and train 
 
 The most consumer friendly trainer simulators are commercial, but available for Linux, macOS as well ([Freerider Recarged](https://fpv-freerider.itch.io/fpv-freerider-recharged), [Liftoff](https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/), [DRL Sim](https://thedroneracingleague.com/drlsim/), [Velocidrone](https://www.velocidrone.com/).
 
+* [StickTime Pi](https://github.com/juricabi/sticktime-pi) - Raspberry Pi that runs StickTime and sends it to analog FPV goggles through a 5.8 GHz VTX on the composite out, flown with your own radio over the ELRS/Crossfire WiFi joystick, USB or Bluetooth.
+* [StickTime](https://github.com/juricabi/sticktime) - 3D FPV quad sim that runs on the radio itself as an EdgeTX Lua tool (color and B&W radios), with AI pilots, a track editor and a browser emulator.
 * [crrcsim](https://sourceforge.net/projects/crrcsim/) - For rc airplanes, 2018.
 * [Picasim](https://github.com/Rowlhouse/PicaSim) - For rc planes, closed source, sucessor of SSS.
 * FlightGear - Usually for big airplanes, but can be paired with FC good description [from PaparazziUAV](https://wiki.paparazziuav.org/wiki/FlightGear) or [by Arduplane](https://ardupilot.org/dev/docs/simulation-2.html) for simulation.
