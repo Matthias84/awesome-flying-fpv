@@ -445,6 +445,7 @@ Free and useful applications to use on your mobile device. Might be not nessesar
 
 ### Workbench 🧰
 
+* [FPV-DB dataset](https://github.com/fpvdb/fpv-db-data) - Open (CC BY 4.0) CSV/JSON specs of 1100+ FPV parts with manufacturer thrust tables and source URL per entry, regenerated daily.
 * [smoke stopper](https://oscarliang.com/smoke-stopper/) - Avoid damaging your expensive components during build up.
 * [4AxisFoamCutter](https://github.com/rahulsarchive/4AxisFoamCutter) - Create aerodynamic wings from foam.
 
