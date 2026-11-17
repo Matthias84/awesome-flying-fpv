@@ -366,6 +366,7 @@ Before you damage any hardware you can learn to avoid common pitfalls and train 
 
 The most consumer friendly trainer simulators are commercial, but available for Linux, macOS as well ([Freerider Recarged](https://fpv-freerider.itch.io/fpv-freerider-recharged), [Liftoff](https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/), [DRL Sim](https://thedroneracingleague.com/drlsim/), [Velocidrone](https://www.velocidrone.com/).
 
+* [libfpv](https://github.com/hammerill/libfpv) - FPV drone in any game. Provides a virtual Betaflight-powered quad that can be injected into any 3D game.
 * [crrcsim](https://sourceforge.net/projects/crrcsim/) - For rc airplanes, 2018.
 * [Picasim](https://github.com/Rowlhouse/PicaSim) - For rc planes, closed source, sucessor of SSS.
 * FlightGear - Usually for big airplanes, but can be paired with FC good description [from PaparazziUAV](https://wiki.paparazziuav.org/wiki/FlightGear) or [by Arduplane](https://ardupilot.org/dev/docs/simulation-2.html) for simulation.
